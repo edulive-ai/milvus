@@ -101,6 +101,6 @@ if __name__ == "__main__":
         
         # Khởi động Flask server
         print("Khởi động API server...")
-        app.run(host='0.0.0.0', port=5000, debug=True)
+        app.run(host='0.0.0.0', port=5001, debug=True)
     else:
         print("Không thể kết nối với Milvus server. Hãy đảm bảo Milvus đang chạy.") 
