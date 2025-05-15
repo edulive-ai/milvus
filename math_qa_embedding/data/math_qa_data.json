@@ -1,722 +1,4002 @@
 [
   {
-    "question": "So sánh 8 và 11 bằng dấu >, <, =",
-    "answer": "8 < 11"
-  },
-  {
-    "question": "Bố mua 1 quả cam và 8 quả quýt. Hỏi bố mua tất cả bao nhiêu quả?",
-    "answer": "1 + 8 = 9"
-  },
-  {
-    "question": "Bình có 2 quyển sách. Nam có 8 quyển sách. Hỏi hai bạn có tất cả bao nhiêu quyển sách?",
-    "answer": "2 + 8 = 10"
-  },
-  {
-    "question": "Tính 20 - 4 = ?",
-    "answer": "20 - 4 = 16"
-  },
-  {
-    "question": "So sánh 11 và 15 bằng dấu >, <, =",
-    "answer": "11 < 15"
-  },
-  {
-    "question": "Tính 18 + 19 = ?",
-    "answer": "18 + 19 = 37"
-  },
-  {
-    "question": "Tính 7 + 7 = ?",
-    "answer": "7 + 7 = 14"
-  },
-  {
-    "question": "Tính 5 + 18 = ?",
-    "answer": "5 + 18 = 23"
-  },
-  {
-    "question": "Tính 22 - 19 = ?",
-    "answer": "22 - 19 = 3"
-  },
-  {
-    "question": "Tính 13 - 1 = ?",
-    "answer": "13 - 1 = 12"
-  },
-  {
-    "question": "Tính 7 + 6 = ?",
-    "answer": "7 + 6 = 13"
-  },
-  {
-    "question": "Tính 11 + 1 = ?",
-    "answer": "11 + 1 = 12"
-  },
-  {
-    "question": "Bố mua 5 quả cam và 4 quả quýt. Hỏi bố mua tất cả bao nhiêu quả?",
-    "answer": "5 + 4 = 9"
-  },
-  {
-    "question": "Tính 4 + 10 = ?",
-    "answer": "4 + 10 = 14"
-  },
-  {
-    "question": "Bố mua 8 quả cam và 5 quả quýt. Hỏi bố mua tất cả bao nhiêu quả?",
-    "answer": "8 + 5 = 13"
-  },
-  {
-    "question": "So sánh 20 và 2 bằng dấu >, <, =",
-    "answer": "20 > 2"
-  },
-  {
-    "question": "Hải có 7 quả táo. Hải được mẹ cho thêm 2 quả táo. Hỏi Hải có tất cả bao nhiêu quả táo?",
-    "answer": "7 + 2 = 9"
-  },
-  {
-    "question": "Trên cây có 9 con chim. Có 1 con chim bay đi. Hỏi trên cây còn lại bao nhiêu con chim?",
-    "answer": "9 - 1 = 8"
-  },
-  {
-    "question": "Tính 20 - 6 = ?",
-    "answer": "20 - 6 = 14"
-  },
-  {
-    "question": "Lan có 14 cái kẹo. Lan ăn mất 6 cái kẹo. Hỏi Lan còn lại bao nhiêu cái kẹo?",
-    "answer": "14 - 6 = 8"
-  },
-  {
-    "question": "Tính 22 - 18 = ?",
-    "answer": "22 - 18 = 4"
-  },
-  {
-    "question": "Tính 11 - 6 = ?",
-    "answer": "11 - 6 = 5"
-  },
-  {
-    "question": "Bố mua 4 quả cam và 4 quả quýt. Hỏi bố mua tất cả bao nhiêu quả?",
-    "answer": "4 + 4 = 8"
-  },
-  {
-    "question": "So sánh 19 và 5 bằng dấu >, <, =",
-    "answer": "19 > 5"
-  },
-  {
-    "question": "Tính 12 - 8 = ?",
-    "answer": "12 - 8 = 4"
-  },
-  {
-    "question": "Tính 28 - 25 = ?",
-    "answer": "28 - 25 = 3"
-  },
-  {
-    "question": "Tính 21 - 13 = ?",
-    "answer": "21 - 13 = 8"
-  },
-  {
-    "question": "Tính 9 + 8 = ?",
-    "answer": "9 + 8 = 17"
-  },
-  {
-    "question": "Hải có 6 quả táo. Hải được mẹ cho thêm 7 quả táo. Hỏi Hải có tất cả bao nhiêu quả táo?",
-    "answer": "6 + 7 = 13"
-  },
-  {
-    "question": "Tính 29 - 12 = ?",
-    "answer": "29 - 12 = 17"
-  },
-  {
-    "question": "Tính 10 - 10 = ?",
-    "answer": "10 - 10 = 0"
-  },
-  {
-    "question": "So sánh 12 và 14 bằng dấu >, <, =",
-    "answer": "12 < 14"
-  },
-  {
-    "question": "Tính 19 + 19 = ?",
-    "answer": "19 + 19 = 38"
-  },
-  {
-    "question": "Tính 22 - 20 = ?",
-    "answer": "22 - 20 = 2"
-  },
-  {
-    "question": "Tính 4 + 10 = ?",
-    "answer": "4 + 10 = 14"
-  },
-  {
-    "question": "Bình có 5 quyển sách. Nam có 1 quyển sách. Hỏi hai bạn có tất cả bao nhiêu quyển sách?",
-    "answer": "5 + 1 = 6"
-  },
-  {
-    "question": "Trên cây có 14 con chim. Có 1 con chim bay đi. Hỏi trên cây còn lại bao nhiêu con chim?",
-    "answer": "14 - 1 = 13"
-  },
-  {
-    "question": "Bình có 8 quyển sách. Nam có 8 quyển sách. Hỏi hai bạn có tất cả bao nhiêu quyển sách?",
-    "answer": "8 + 8 = 16"
-  },
-  {
-    "question": "Tính 1 + 16 = ?",
-    "answer": "1 + 16 = 17"
-  },
-  {
-    "question": "Tính 15 - 6 = ?",
-    "answer": "15 - 6 = 9"
-  },
-  {
-    "question": "Tính 14 + 9 = ?",
-    "answer": "14 + 9 = 23"
-  },
-  {
-    "question": "Bình có 6 quyển sách. Nam có 1 quyển sách. Hỏi hai bạn có tất cả bao nhiêu quyển sách?",
-    "answer": "6 + 1 = 7"
-  },
-  {
-    "question": "So sánh 6 và 4 bằng dấu >, <, =",
-    "answer": "6 > 4"
-  },
-  {
-    "question": "Tính 24 - 17 = ?",
-    "answer": "24 - 17 = 7"
-  },
-  {
-    "question": "Tính 5 + 15 = ?",
-    "answer": "5 + 15 = 20"
-  },
-  {
-    "question": "So sánh 10 và 12 bằng dấu >, <, =",
-    "answer": "10 < 12"
-  },
-  {
-    "question": "Lan có 14 cái kẹo. Lan ăn mất 10 cái kẹo. Hỏi Lan còn lại bao nhiêu cái kẹo?",
-    "answer": "14 - 10 = 4"
-  },
-  {
-    "question": "Tính 2 + 10 = ?",
-    "answer": "2 + 10 = 12"
-  },
-  {
-    "question": "Bố mua 9 quả cam và 1 quả quýt. Hỏi bố mua tất cả bao nhiêu quả?",
-    "answer": "9 + 1 = 10"
-  },
-  {
-    "question": "Tính 19 + 4 = ?",
-    "answer": "19 + 4 = 23"
-  },
-  {
-    "question": "Tính 10 - 9 = ?",
-    "answer": "10 - 9 = 1"
-  },
-  {
-    "question": "Tính 10 + 13 = ?",
-    "answer": "10 + 13 = 23"
-  },
-  {
-    "question": "Tính 8 + 18 = ?",
-    "answer": "8 + 18 = 26"
-  },
-  {
-    "question": "Tính 14 - 8 = ?",
-    "answer": "14 - 8 = 6"
-  },
-  {
-    "question": "Tính 30 - 20 = ?",
-    "answer": "30 - 20 = 10"
-  },
-  {
-    "question": "Bố mua 1 quả cam và 6 quả quýt. Hỏi bố mua tất cả bao nhiêu quả?",
-    "answer": "1 + 6 = 7"
-  },
-  {
-    "question": "Bình có 5 quyển sách. Nam có 8 quyển sách. Hỏi hai bạn có tất cả bao nhiêu quyển sách?",
-    "answer": "5 + 8 = 13"
-  },
-  {
-    "question": "Bình có 10 quyển sách. Nam có 1 quyển sách. Hỏi hai bạn có tất cả bao nhiêu quyển sách?",
-    "answer": "10 + 1 = 11"
-  },
-  {
-    "question": "Tính 27 - 17 = ?",
-    "answer": "27 - 17 = 10"
-  },
-  {
-    "question": "Lan có 5 cái kẹo. Lan ăn mất 5 cái kẹo. Hỏi Lan còn lại bao nhiêu cái kẹo?",
-    "answer": "5 - 5 = 0"
-  },
-  {
-    "question": "Tính 26 - 25 = ?",
-    "answer": "26 - 25 = 1"
-  },
-  {
-    "question": "Tính 26 - 25 = ?",
-    "answer": "26 - 25 = 1"
-  },
-  {
-    "question": "Tính 18 + 4 = ?",
-    "answer": "18 + 4 = 22"
-  },
-  {
-    "question": "So sánh 5 và 19 bằng dấu >, <, =",
-    "answer": "5 < 19"
-  },
-  {
-    "question": "Tính 8 + 6 = ?",
-    "answer": "8 + 6 = 14"
-  },
-  {
-    "question": "Bình có 3 quyển sách. Nam có 5 quyển sách. Hỏi hai bạn có tất cả bao nhiêu quyển sách?",
-    "answer": "3 + 5 = 8"
-  },
-  {
-    "question": "Tính 4 + 13 = ?",
-    "answer": "4 + 13 = 17"
-  },
-  {
-    "question": "Tính 20 - 17 = ?",
-    "answer": "20 - 17 = 3"
-  },
-  {
-    "question": "Tính 19 - 10 = ?",
-    "answer": "19 - 10 = 9"
-  },
-  {
-    "question": "Hải có 1 quả táo. Hải được mẹ cho thêm 1 quả táo. Hỏi Hải có tất cả bao nhiêu quả táo?",
-    "answer": "1 + 1 = 2"
-  },
-  {
-    "question": "Trên cây có 8 con chim. Có 1 con chim bay đi. Hỏi trên cây còn lại bao nhiêu con chim?",
-    "answer": "8 - 1 = 7"
-  },
-  {
-    "question": "Bình có 8 quyển sách. Nam có 2 quyển sách. Hỏi hai bạn có tất cả bao nhiêu quyển sách?",
-    "answer": "8 + 2 = 10"
-  },
-  {
-    "question": "Tính 19 + 4 = ?",
-    "answer": "19 + 4 = 23"
-  },
-  {
-    "question": "Tính 19 + 15 = ?",
-    "answer": "19 + 15 = 34"
-  },
-  {
-    "question": "Tính 6 + 8 = ?",
-    "answer": "6 + 8 = 14"
-  },
-  {
-    "question": "Bố mua 1 quả cam và 9 quả quýt. Hỏi bố mua tất cả bao nhiêu quả?",
-    "answer": "1 + 9 = 10"
-  },
-  {
-    "question": "Tính 11 - 7 = ?",
-    "answer": "11 - 7 = 4"
-  },
-  {
-    "question": "Tính 10 + 2 = ?",
-    "answer": "10 + 2 = 12"
-  },
-  {
-    "question": "Tính 28 - 9 = ?",
-    "answer": "28 - 9 = 19"
-  },
-  {
-    "question": "So sánh 19 và 5 bằng dấu >, <, =",
-    "answer": "19 > 5"
-  },
-  {
-    "question": "Tính 10 - 7 = ?",
-    "answer": "10 - 7 = 3"
-  },
-  {
-    "question": "So sánh 8 và 12 bằng dấu >, <, =",
-    "answer": "8 < 12"
-  },
-  {
-    "question": "Tính 15 - 14 = ?",
-    "answer": "15 - 14 = 1"
-  },
-  {
-    "question": "Tính 16 - 14 = ?",
-    "answer": "16 - 14 = 2"
-  },
-  {
-    "question": "Lan có 7 cái kẹo. Lan ăn mất 7 cái kẹo. Hỏi Lan còn lại bao nhiêu cái kẹo?",
-    "answer": "7 - 7 = 0"
-  },
-  {
-    "question": "Hải có 8 quả táo. Hải được mẹ cho thêm 8 quả táo. Hỏi Hải có tất cả bao nhiêu quả táo?",
-    "answer": "8 + 8 = 16"
-  },
-  {
-    "question": "So sánh 6 và 4 bằng dấu >, <, =",
-    "answer": "6 > 4"
-  },
-  {
-    "question": "Tính 15 - 8 = ?",
-    "answer": "15 - 8 = 7"
-  },
-  {
-    "question": "Tính 20 - 14 = ?",
-    "answer": "20 - 14 = 6"
-  },
-  {
-    "question": "Tính 13 + 6 = ?",
-    "answer": "13 + 6 = 19"
-  },
-  {
-    "question": "So sánh 3 và 4 bằng dấu >, <, =",
-    "answer": "3 < 4"
-  },
-  {
-    "question": "Tính 16 - 14 = ?",
-    "answer": "16 - 14 = 2"
-  },
-  {
-    "question": "Tính 24 - 13 = ?",
-    "answer": "24 - 13 = 11"
-  },
-  {
-    "question": "Tính 2 + 14 = ?",
-    "answer": "2 + 14 = 16"
-  },
-  {
-    "question": "So sánh 7 và 16 bằng dấu >, <, =",
-    "answer": "7 < 16"
-  },
-  {
-    "question": "Tính 19 - 3 = ?",
-    "answer": "19 - 3 = 16"
-  },
-  {
-    "question": "Tính 26 - 5 = ?",
-    "answer": "26 - 5 = 21"
-  },
-  {
-    "question": "Tính 20 - 5 = ?",
-    "answer": "20 - 5 = 15"
-  },
-  {
-    "question": "Bình có 8 quyển sách. Nam có 3 quyển sách. Hỏi hai bạn có tất cả bao nhiêu quyển sách?",
-    "answer": "8 + 3 = 11"
-  },
-  {
-    "question": "So sánh 18 và 6 bằng dấu >, <, =",
-    "answer": "18 > 6"
-  },
-  {
-    "question": "Bình có 9 quyển sách. Nam có 8 quyển sách. Hỏi hai bạn có tất cả bao nhiêu quyển sách?",
-    "answer": "9 + 8 = 17"
-  },
-  {
-    "question": "Tính 20 + 11 = ?",
-    "answer": "20 + 11 = 31"
-  },
-  {
-    "question": "Trên cây có 6 con chim. Có 6 con chim bay đi. Hỏi trên cây còn lại bao nhiêu con chim?",
-    "answer": "6 - 6 = 0"
-  },
-  {
-    "question": "Tính 13 - 3 = ?",
-    "answer": "13 - 3 = 10"
-  },
-  {
-    "question": "Tính 12 + 1 = ?",
-    "answer": "12 + 1 = 13"
-  },
-  {
-    "question": "Tính 10 - 4 = ?",
-    "answer": "10 - 4 = 6"
-  },
-  {
-    "question": "Tính 19 - 4 = ?",
-    "answer": "19 - 4 = 15"
-  },
-  {
-    "question": "Tính 30 - 26 = ?",
-    "answer": "30 - 26 = 4"
-  },
-  {
-    "question": "So sánh 13 và 13 bằng dấu >, <, =",
-    "answer": "13 = 13"
-  },
-  {
-    "question": "So sánh 7 và 19 bằng dấu >, <, =",
-    "answer": "7 < 19"
-  },
-  {
-    "question": "Tính 15 + 20 = ?",
-    "answer": "15 + 20 = 35"
-  },
-  {
-    "question": "So sánh 16 và 4 bằng dấu >, <, =",
-    "answer": "16 > 4"
-  },
-  {
-    "question": "Tính 18 - 1 = ?",
-    "answer": "18 - 1 = 17"
-  },
-  {
-    "question": "Trên cây có 13 con chim. Có 3 con chim bay đi. Hỏi trên cây còn lại bao nhiêu con chim?",
-    "answer": "13 - 3 = 10"
-  },
-  {
-    "question": "Tính 18 + 4 = ?",
-    "answer": "18 + 4 = 22"
-  },
-  {
-    "question": "Tính 12 + 17 = ?",
-    "answer": "12 + 17 = 29"
-  },
-  {
-    "question": "Tính 26 - 25 = ?",
-    "answer": "26 - 25 = 1"
-  },
-  {
-    "question": "Hải có 1 quả táo. Hải được mẹ cho thêm 4 quả táo. Hỏi Hải có tất cả bao nhiêu quả táo?",
-    "answer": "1 + 4 = 5"
-  },
-  {
-    "question": "Lan có 11 cái kẹo. Lan ăn mất 1 cái kẹo. Hỏi Lan còn lại bao nhiêu cái kẹo?",
-    "answer": "11 - 1 = 10"
-  },
-  {
-    "question": "Tính 4 + 3 = ?",
-    "answer": "4 + 3 = 7"
-  },
-  {
-    "question": "Trên cây có 8 con chim. Có 6 con chim bay đi. Hỏi trên cây còn lại bao nhiêu con chim?",
-    "answer": "8 - 6 = 2"
-  },
-  {
-    "question": "Bình có 10 quyển sách. Nam có 1 quyển sách. Hỏi hai bạn có tất cả bao nhiêu quyển sách?",
-    "answer": "10 + 1 = 11"
-  },
-  {
-    "question": "Trên cây có 19 con chim. Có 12 con chim bay đi. Hỏi trên cây còn lại bao nhiêu con chim?",
-    "answer": "19 - 12 = 7"
-  },
-  {
-    "question": "Tính 16 + 4 = ?",
-    "answer": "16 + 4 = 20"
-  },
-  {
-    "question": "Lan có 12 cái kẹo. Lan ăn mất 2 cái kẹo. Hỏi Lan còn lại bao nhiêu cái kẹo?",
-    "answer": "12 - 2 = 10"
-  },
-  {
-    "question": "So sánh 4 và 1 bằng dấu >, <, =",
-    "answer": "4 > 1"
-  },
-  {
-    "question": "Tính 12 - 3 = ?",
-    "answer": "12 - 3 = 9"
-  },
-  {
-    "question": "Tính 6 + 6 = ?",
-    "answer": "6 + 6 = 12"
-  },
-  {
-    "question": "Hải có 4 quả táo. Hải được mẹ cho thêm 6 quả táo. Hỏi Hải có tất cả bao nhiêu quả táo?",
-    "answer": "4 + 6 = 10"
-  },
-  {
-    "question": "Tính 10 + 4 = ?",
-    "answer": "10 + 4 = 14"
-  },
-  {
-    "question": "So sánh 14 và 4 bằng dấu >, <, =",
-    "answer": "14 > 4"
-  },
-  {
-    "question": "Bố mua 2 quả cam và 7 quả quýt. Hỏi bố mua tất cả bao nhiêu quả?",
-    "answer": "2 + 7 = 9"
-  },
-  {
-    "question": "Tính 20 - 2 = ?",
-    "answer": "20 - 2 = 18"
-  },
-  {
-    "question": "So sánh 16 và 11 bằng dấu >, <, =",
-    "answer": "16 > 11"
-  },
-  {
-    "question": "Tính 4 + 7 = ?",
-    "answer": "4 + 7 = 11"
-  },
-  {
-    "question": "Lan có 12 cái kẹo. Lan ăn mất 4 cái kẹo. Hỏi Lan còn lại bao nhiêu cái kẹo?",
-    "answer": "12 - 4 = 8"
-  },
-  {
-    "question": "Tính 16 + 17 = ?",
-    "answer": "16 + 17 = 33"
-  },
-  {
-    "question": "Tính 15 + 20 = ?",
-    "answer": "15 + 20 = 35"
-  },
-  {
-    "question": "So sánh 1 và 14 bằng dấu >, <, =",
-    "answer": "1 < 14"
+    "question": "So sánh 3 và 1 bằng dấu >, <, =",
+    "answer": "3 > 1"
   },
   {
     "question": "Bình có 7 quyển sách. Nam có 10 quyển sách. Hỏi hai bạn có tất cả bao nhiêu quyển sách?",
     "answer": "7 + 10 = 17"
   },
   {
-    "question": "So sánh 11 và 17 bằng dấu >, <, =",
-    "answer": "11 < 17"
+    "question": "Tính 13 + 3 = ?",
+    "answer": "13 + 3 = 16"
   },
   {
-    "question": "Tính 10 - 7 = ?",
-    "answer": "10 - 7 = 3"
+    "question": "Tính 3 + 3 = ?",
+    "answer": "3 + 3 = 6"
   },
   {
-    "question": "Bố mua 4 quả cam và 1 quả quýt. Hỏi bố mua tất cả bao nhiêu quả?",
-    "answer": "4 + 1 = 5"
+    "question": "Điền số tiếp theo vào dãy số: 8, 11, 14, ...",
+    "answer": "Số tiếp theo là 17"
   },
   {
-    "question": "Bố mua 1 quả cam và 8 quả quýt. Hỏi bố mua tất cả bao nhiêu quả?",
-    "answer": "1 + 8 = 9"
+    "question": "Tính 17 + 10 = ?",
+    "answer": "17 + 10 = 27"
   },
   {
-    "question": "So sánh 6 và 10 bằng dấu >, <, =",
-    "answer": "6 < 10"
+    "question": "Tính 24 - 2 = ?",
+    "answer": "24 - 2 = 22"
   },
   {
-    "question": "Bình có 7 quyển sách. Nam có 2 quyển sách. Hỏi hai bạn có tất cả bao nhiêu quyển sách?",
-    "answer": "7 + 2 = 9"
+    "question": "Trong vườn có 5 cây hoa hồng và 8 cây hoa cúc. Hỏi trong vườn có tất cả bao nhiêu cây hoa?",
+    "answer": "5 + 8 = 13"
   },
   {
-    "question": "Bố mua 9 quả cam và 2 quả quýt. Hỏi bố mua tất cả bao nhiêu quả?",
-    "answer": "9 + 2 = 11"
+    "question": "Hải có 8 quả táo. Hải được mẹ cho thêm 3 quả táo. Hỏi Hải có tất cả bao nhiêu quả táo?",
+    "answer": "8 + 3 = 11"
   },
   {
-    "question": "Tính 1 + 11 = ?",
-    "answer": "1 + 11 = 12"
+    "question": "Đếm số quyển sách trong hình và viết kết quả",
+    "answer": "Có 7 quyển sách"
   },
   {
-    "question": "Tính 12 + 6 = ?",
-    "answer": "12 + 6 = 18"
+    "question": "Bình có 5 quyển sách. Nam có 1 quyển sách. Hỏi hai bạn có tất cả bao nhiêu quyển sách?",
+    "answer": "5 + 1 = 6"
   },
   {
-    "question": "Bố mua 7 quả cam và 9 quả quýt. Hỏi bố mua tất cả bao nhiêu quả?",
-    "answer": "7 + 9 = 16"
+    "question": "Mẹ có 20 quả trứng. Mẹ đã dùng 12 quả để làm bánh. Hỏi mẹ còn lại bao nhiêu quả trứng?",
+    "answer": "20 - 12 = 8"
   },
   {
-    "question": "Tính 24 - 22 = ?",
-    "answer": "24 - 22 = 2"
+    "question": "Tính 14 + 8 = ?",
+    "answer": "14 + 8 = 22"
   },
   {
-    "question": "Tính 1 + 16 = ?",
-    "answer": "1 + 16 = 17"
+    "question": "So sánh 12 và 2 bằng dấu >, <, =",
+    "answer": "12 > 2"
   },
   {
-    "question": "Tính 18 - 5 = ?",
-    "answer": "18 - 5 = 13"
+    "question": "Điền số tiếp theo vào dãy số: 9, 10, ...",
+    "answer": "Số tiếp theo là 11"
   },
   {
-    "question": "Tính 19 - 19 = ?",
-    "answer": "19 - 19 = 0"
+    "question": "Tính 20 + 17 = ?",
+    "answer": "20 + 17 = 37"
   },
   {
-    "question": "Tính 14 - 2 = ?",
-    "answer": "14 - 2 = 12"
+    "question": "Lan có 11 cái kẹo. Lan ăn mất 5 cái kẹo. Hỏi Lan còn lại bao nhiêu cái kẹo?",
+    "answer": "11 - 5 = 6"
   },
   {
-    "question": "Trên cây có 14 con chim. Có 13 con chim bay đi. Hỏi trên cây còn lại bao nhiêu con chim?",
-    "answer": "14 - 13 = 1"
+    "question": "Điền số tiếp theo vào dãy số: 3, 5, 7, 9, ...",
+    "answer": "Số tiếp theo là 11"
   },
   {
-    "question": "Trên cây có 17 con chim. Có 5 con chim bay đi. Hỏi trên cây còn lại bao nhiêu con chim?",
-    "answer": "17 - 5 = 12"
+    "question": "Đếm số quyển sách trong hình và viết kết quả",
+    "answer": "Có 12 quyển sách"
   },
   {
-    "question": "Tính 27 - 1 = ?",
-    "answer": "27 - 1 = 26"
+    "question": "So sánh 9 và 10 bằng dấu >, <, =",
+    "answer": "9 < 10"
   },
   {
-    "question": "So sánh 7 và 10 bằng dấu >, <, =",
-    "answer": "7 < 10"
+    "question": "Tính 9 + 5 = ?",
+    "answer": "9 + 5 = 14"
   },
   {
-    "question": "Tính 2 + 15 = ?",
-    "answer": "2 + 15 = 17"
+    "question": "Tính 29 - 12 = ?",
+    "answer": "29 - 12 = 17"
   },
   {
-    "question": "Tính 19 + 3 = ?",
-    "answer": "19 + 3 = 22"
+    "question": "Tính 19 + 13 = ?",
+    "answer": "19 + 13 = 32"
   },
   {
-    "question": "So sánh 9 và 19 bằng dấu >, <, =",
-    "answer": "9 < 19"
+    "question": "Đếm số cái bút trong hình và viết kết quả",
+    "answer": "Có 9 cái bút"
   },
   {
-    "question": "Bố mua 1 quả cam và 3 quả quýt. Hỏi bố mua tất cả bao nhiêu quả?",
-    "answer": "1 + 3 = 4"
+    "question": "Điền số tiếp theo vào dãy số: 3, 5, ...",
+    "answer": "Số tiếp theo là 7"
   },
   {
-    "question": "Tính 13 + 10 = ?",
-    "answer": "13 + 10 = 23"
+    "question": "Tính 19 - 4 = ?",
+    "answer": "19 - 4 = 15"
   },
   {
-    "question": "Tính 19 + 14 = ?",
-    "answer": "19 + 14 = 33"
+    "question": "Tính 12 + 1 = ?",
+    "answer": "12 + 1 = 13"
   },
   {
-    "question": "So sánh 4 và 17 bằng dấu >, <, =",
-    "answer": "4 < 17"
+    "question": "Tính 29 - 17 = ?",
+    "answer": "29 - 17 = 12"
   },
   {
-    "question": "Tính 15 + 4 = ?",
-    "answer": "15 + 4 = 19"
+    "question": "Hải có 1 quả táo. Hải được mẹ cho thêm 10 quả táo. Hỏi Hải có tất cả bao nhiêu quả táo?",
+    "answer": "1 + 10 = 11"
   },
   {
-    "question": "Tính 20 + 18 = ?",
-    "answer": "20 + 18 = 38"
+    "question": "Đếm số quả cam trong hình và viết kết quả",
+    "answer": "Có 10 quả cam"
   },
   {
-    "question": "Trên cây có 16 con chim. Có 9 con chim bay đi. Hỏi trên cây còn lại bao nhiêu con chim?",
-    "answer": "16 - 9 = 7"
+    "question": "Tính 12 + 15 = ?",
+    "answer": "12 + 15 = 27"
   },
   {
-    "question": "Tính 26 - 14 = ?",
-    "answer": "26 - 14 = 12"
+    "question": "Bố mua 4 quả cam và 6 quả quýt. Hỏi bố mua tất cả bao nhiêu quả?",
+    "answer": "4 + 6 = 10"
   },
   {
-    "question": "Tính 10 + 14 = ?",
-    "answer": "10 + 14 = 24"
+    "question": "Điền số tiếp theo vào dãy số: 3, 6, 9, ...",
+    "answer": "Số tiếp theo là 12"
   },
   {
-    "question": "Tính 3 + 15 = ?",
-    "answer": "3 + 15 = 18"
+    "question": "So sánh 18 và 5 bằng dấu >, <, =",
+    "answer": "18 > 5"
   },
   {
-    "question": "So sánh 11 và 12 bằng dấu >, <, =",
-    "answer": "11 < 12"
+    "question": "Mẹ có 17 quả trứng. Mẹ đã dùng 16 quả để làm bánh. Hỏi mẹ còn lại bao nhiêu quả trứng?",
+    "answer": "17 - 16 = 1"
   },
   {
-    "question": "Tính 6 + 16 = ?",
-    "answer": "6 + 16 = 22"
+    "question": "Tính 17 - 10 = ?",
+    "answer": "17 - 10 = 7"
   },
   {
-    "question": "So sánh 14 và 17 bằng dấu >, <, =",
-    "answer": "14 < 17"
+    "question": "Tính 13 + 15 = ?",
+    "answer": "13 + 15 = 28"
+  },
+  {
+    "question": "Tính 3 + 9 = ?",
+    "answer": "3 + 9 = 12"
+  },
+  {
+    "question": "Mẹ có 9 quả trứng. Mẹ đã dùng 1 quả để làm bánh. Hỏi mẹ còn lại bao nhiêu quả trứng?",
+    "answer": "9 - 1 = 8"
+  },
+  {
+    "question": "Tính 6 + 13 = ?",
+    "answer": "6 + 13 = 19"
+  },
+  {
+    "question": "So sánh 3 và 15 bằng dấu >, <, =",
+    "answer": "3 < 15"
+  },
+  {
+    "question": "Tính 11 + 7 = ?",
+    "answer": "11 + 7 = 18"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 3, 5, 7, ...",
+    "answer": "Số tiếp theo là 9"
+  },
+  {
+    "question": "Tính 15 - 4 = ?",
+    "answer": "15 - 4 = 11"
+  },
+  {
+    "question": "Tính 28 - 23 = ?",
+    "answer": "28 - 23 = 5"
+  },
+  {
+    "question": "Tính 1 + 14 = ?",
+    "answer": "1 + 14 = 15"
+  },
+  {
+    "question": "Lớp 1A có 7 bạn nam và 6 bạn nữ. Hỏi lớp 1A có tất cả bao nhiêu học sinh?",
+    "answer": "7 + 6 = 13"
+  },
+  {
+    "question": "Bình có 2 quyển sách. Nam có 9 quyển sách. Hỏi hai bạn có tất cả bao nhiêu quyển sách?",
+    "answer": "2 + 9 = 11"
+  },
+  {
+    "question": "Tính 9 + 20 = ?",
+    "answer": "9 + 20 = 29"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 8, 10, 12, ...",
+    "answer": "Số tiếp theo là 14"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 7, 10, 13, 16, ...",
+    "answer": "Số tiếp theo là 19"
+  },
+  {
+    "question": "So sánh 4 và 14 bằng dấu >, <, =",
+    "answer": "4 < 14"
+  },
+  {
+    "question": "Tính 7 + 5 = ?",
+    "answer": "7 + 5 = 12"
+  },
+  {
+    "question": "Tính 4 + 13 = ?",
+    "answer": "4 + 13 = 17"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 3, 6, 9, ...",
+    "answer": "Số tiếp theo là 12"
+  },
+  {
+    "question": "Tính 13 - 12 = ?",
+    "answer": "13 - 12 = 1"
   },
   {
     "question": "So sánh 12 và 7 bằng dấu >, <, =",
     "answer": "12 > 7"
   },
   {
+    "question": "Tính 21 - 5 = ?",
+    "answer": "21 - 5 = 16"
+  },
+  {
+    "question": "Tính 7 + 17 = ?",
+    "answer": "7 + 17 = 24"
+  },
+  {
+    "question": "Bố mua 7 quả cam và 1 quả quýt. Hỏi bố mua tất cả bao nhiêu quả?",
+    "answer": "7 + 1 = 8"
+  },
+  {
+    "question": "So sánh 8 và 14 bằng dấu >, <, =",
+    "answer": "8 < 14"
+  },
+  {
+    "question": "Tính 12 - 2 = ?",
+    "answer": "12 - 2 = 10"
+  },
+  {
+    "question": "Tính 15 + 6 = ?",
+    "answer": "15 + 6 = 21"
+  },
+  {
+    "question": "Đếm số cái kẹo trong hình và viết kết quả",
+    "answer": "Có 14 cái kẹo"
+  },
+  {
+    "question": "Tính 9 + 3 = ?",
+    "answer": "9 + 3 = 12"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 5, 7, 9, ...",
+    "answer": "Số tiếp theo là 11"
+  },
+  {
+    "question": "Bố mua 1 quả cam và 6 quả quýt. Hỏi bố mua tất cả bao nhiêu quả?",
+    "answer": "1 + 6 = 7"
+  },
+  {
+    "question": "Tính 2 + 3 = ?",
+    "answer": "2 + 3 = 5"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 3, 4, ...",
+    "answer": "Số tiếp theo là 5"
+  },
+  {
+    "question": "Tính 18 + 18 = ?",
+    "answer": "18 + 18 = 36"
+  },
+  {
+    "question": "Tính 11 - 9 = ?",
+    "answer": "11 - 9 = 2"
+  },
+  {
+    "question": "Tính 17 + 10 = ?",
+    "answer": "17 + 10 = 27"
+  },
+  {
+    "question": "Hải có 5 quả táo. Hải được mẹ cho thêm 1 quả táo. Hỏi Hải có tất cả bao nhiêu quả táo?",
+    "answer": "5 + 1 = 6"
+  },
+  {
+    "question": "Tính 17 + 6 = ?",
+    "answer": "17 + 6 = 23"
+  },
+  {
+    "question": "Mẹ có 15 quả trứng. Mẹ đã dùng 5 quả để làm bánh. Hỏi mẹ còn lại bao nhiêu quả trứng?",
+    "answer": "15 - 5 = 10"
+  },
+  {
+    "question": "Tính 16 - 2 = ?",
+    "answer": "16 - 2 = 14"
+  },
+  {
+    "question": "Đếm số quả cam trong hình và viết kết quả",
+    "answer": "Có 6 quả cam"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 3, 5, ...",
+    "answer": "Số tiếp theo là 7"
+  },
+  {
+    "question": "So sánh 3 và 16 bằng dấu >, <, =",
+    "answer": "3 < 16"
+  },
+  {
+    "question": "Trong vườn có 2 cây hoa hồng và 1 cây hoa cúc. Hỏi trong vườn có tất cả bao nhiêu cây hoa?",
+    "answer": "2 + 1 = 3"
+  },
+  {
+    "question": "Bình có 4 quyển sách. Nam có 2 quyển sách. Hỏi hai bạn có tất cả bao nhiêu quyển sách?",
+    "answer": "4 + 2 = 6"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 7, 8, 9, 10, ...",
+    "answer": "Số tiếp theo là 11"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 5, 6, 7, ...",
+    "answer": "Số tiếp theo là 8"
+  },
+  {
+    "question": "So sánh 20 và 1 bằng dấu >, <, =",
+    "answer": "20 > 1"
+  },
+  {
+    "question": "Đếm số quả táo trong hình và viết kết quả",
+    "answer": "Có 7 quả táo"
+  },
+  {
+    "question": "Hải có 5 quả táo. Hải được mẹ cho thêm 5 quả táo. Hỏi Hải có tất cả bao nhiêu quả táo?",
+    "answer": "5 + 5 = 10"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 5, 7, 9, ...",
+    "answer": "Số tiếp theo là 11"
+  },
+  {
+    "question": "Mẹ có 9 quả trứng. Mẹ đã dùng 2 quả để làm bánh. Hỏi mẹ còn lại bao nhiêu quả trứng?",
+    "answer": "9 - 2 = 7"
+  },
+  {
+    "question": "Tính 6 + 15 = ?",
+    "answer": "6 + 15 = 21"
+  },
+  {
+    "question": "Đếm số con chó trong hình và viết kết quả",
+    "answer": "Có 12 con chó"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 7, 10, 13, ...",
+    "answer": "Số tiếp theo là 16"
+  },
+  {
+    "question": "So sánh 18 và 19 bằng dấu >, <, =",
+    "answer": "18 < 19"
+  },
+  {
+    "question": "Tính 10 - 3 = ?",
+    "answer": "10 - 3 = 7"
+  },
+  {
+    "question": "So sánh 1 và 4 bằng dấu >, <, =",
+    "answer": "1 < 4"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 9, 10, ...",
+    "answer": "Số tiếp theo là 11"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 6, 8, 10, 12, ...",
+    "answer": "Số tiếp theo là 14"
+  },
+  {
+    "question": "Trong vườn có 1 cây hoa hồng và 2 cây hoa cúc. Hỏi trong vườn có tất cả bao nhiêu cây hoa?",
+    "answer": "1 + 2 = 3"
+  },
+  {
+    "question": "Tính 7 + 2 = ?",
+    "answer": "7 + 2 = 9"
+  },
+  {
+    "question": "So sánh 1 và 7 bằng dấu >, <, =",
+    "answer": "1 < 7"
+  },
+  {
+    "question": "Tính 17 + 17 = ?",
+    "answer": "17 + 17 = 34"
+  },
+  {
+    "question": "Tính 28 - 11 = ?",
+    "answer": "28 - 11 = 17"
+  },
+  {
+    "question": "Tính 28 - 13 = ?",
+    "answer": "28 - 13 = 15"
+  },
+  {
+    "question": "Trong vườn có 3 cây hoa hồng và 7 cây hoa cúc. Hỏi trong vườn có tất cả bao nhiêu cây hoa?",
+    "answer": "3 + 7 = 10"
+  },
+  {
+    "question": "Lớp 1A có 5 bạn nam và 10 bạn nữ. Hỏi lớp 1A có tất cả bao nhiêu học sinh?",
+    "answer": "5 + 10 = 15"
+  },
+  {
+    "question": "Lớp 1A có 2 bạn nam và 5 bạn nữ. Hỏi lớp 1A có tất cả bao nhiêu học sinh?",
+    "answer": "2 + 5 = 7"
+  },
+  {
+    "question": "Bình có 10 quyển sách. Nam có 9 quyển sách. Hỏi hai bạn có tất cả bao nhiêu quyển sách?",
+    "answer": "10 + 9 = 19"
+  },
+  {
+    "question": "Tính 5 + 11 = ?",
+    "answer": "5 + 11 = 16"
+  },
+  {
+    "question": "Tính 17 + 12 = ?",
+    "answer": "17 + 12 = 29"
+  },
+  {
+    "question": "Tính 14 + 20 = ?",
+    "answer": "14 + 20 = 34"
+  },
+  {
+    "question": "Tính 12 + 10 = ?",
+    "answer": "12 + 10 = 22"
+  },
+  {
+    "question": "So sánh 6 và 15 bằng dấu >, <, =",
+    "answer": "6 < 15"
+  },
+  {
+    "question": "Tính 10 - 8 = ?",
+    "answer": "10 - 8 = 2"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 6, 9, 12, ...",
+    "answer": "Số tiếp theo là 15"
+  },
+  {
+    "question": "Tính 10 + 19 = ?",
+    "answer": "10 + 19 = 29"
+  },
+  {
+    "question": "So sánh 1 và 14 bằng dấu >, <, =",
+    "answer": "1 < 14"
+  },
+  {
+    "question": "Hải có 5 quả táo. Hải được mẹ cho thêm 3 quả táo. Hỏi Hải có tất cả bao nhiêu quả táo?",
+    "answer": "5 + 3 = 8"
+  },
+  {
+    "question": "So sánh 19 và 5 bằng dấu >, <, =",
+    "answer": "19 > 5"
+  },
+  {
+    "question": "Đếm số quả táo trong hình và viết kết quả",
+    "answer": "Có 10 quả táo"
+  },
+  {
+    "question": "Bố mua 1 quả cam và 8 quả quýt. Hỏi bố mua tất cả bao nhiêu quả?",
+    "answer": "1 + 8 = 9"
+  },
+  {
+    "question": "Tính 10 - 10 = ?",
+    "answer": "10 - 10 = 0"
+  },
+  {
+    "question": "Đếm số con mèo trong hình và viết kết quả",
+    "answer": "Có 5 con mèo"
+  },
+  {
+    "question": "Tính 14 - 4 = ?",
+    "answer": "14 - 4 = 10"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 7, 10, 13, ...",
+    "answer": "Số tiếp theo là 16"
+  },
+  {
+    "question": "Tính 3 + 8 = ?",
+    "answer": "3 + 8 = 11"
+  },
+  {
+    "question": "Đếm số cái kẹo trong hình và viết kết quả",
+    "answer": "Có 8 cái kẹo"
+  },
+  {
+    "question": "So sánh 7 và 17 bằng dấu >, <, =",
+    "answer": "7 < 17"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 7, 8, ...",
+    "answer": "Số tiếp theo là 9"
+  },
+  {
+    "question": "Tính 9 + 3 = ?",
+    "answer": "9 + 3 = 12"
+  },
+  {
+    "question": "Tính 20 + 11 = ?",
+    "answer": "20 + 11 = 31"
+  },
+  {
+    "question": "Trong vườn có 7 cây hoa hồng và 10 cây hoa cúc. Hỏi trong vườn có tất cả bao nhiêu cây hoa?",
+    "answer": "7 + 10 = 17"
+  },
+  {
+    "question": "Tính 18 + 9 = ?",
+    "answer": "18 + 9 = 27"
+  },
+  {
+    "question": "Tính 22 - 19 = ?",
+    "answer": "22 - 19 = 3"
+  },
+  {
+    "question": "Đếm số quả táo trong hình và viết kết quả",
+    "answer": "Có 11 quả táo"
+  },
+  {
+    "question": "Đếm số cái bút trong hình và viết kết quả",
+    "answer": "Có 10 cái bút"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 10, 11, 12, ...",
+    "answer": "Số tiếp theo là 13"
+  },
+  {
+    "question": "Tính 18 - 12 = ?",
+    "answer": "18 - 12 = 6"
+  },
+  {
+    "question": "Đếm số quả táo trong hình và viết kết quả",
+    "answer": "Có 14 quả táo"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 5, 7, 9, ...",
+    "answer": "Số tiếp theo là 11"
+  },
+  {
+    "question": "So sánh 11 và 1 bằng dấu >, <, =",
+    "answer": "11 > 1"
+  },
+  {
+    "question": "So sánh 1 và 15 bằng dấu >, <, =",
+    "answer": "1 < 15"
+  },
+  {
+    "question": "Tính 22 - 1 = ?",
+    "answer": "22 - 1 = 21"
+  },
+  {
+    "question": "So sánh 18 và 5 bằng dấu >, <, =",
+    "answer": "18 > 5"
+  },
+  {
+    "question": "Tính 21 - 19 = ?",
+    "answer": "21 - 19 = 2"
+  },
+  {
+    "question": "Tính 17 + 15 = ?",
+    "answer": "17 + 15 = 32"
+  },
+  {
+    "question": "Tính 18 + 16 = ?",
+    "answer": "18 + 16 = 34"
+  },
+  {
+    "question": "Tính 14 + 5 = ?",
+    "answer": "14 + 5 = 19"
+  },
+  {
+    "question": "Tính 14 - 1 = ?",
+    "answer": "14 - 1 = 13"
+  },
+  {
+    "question": "Bố mua 1 quả cam và 9 quả quýt. Hỏi bố mua tất cả bao nhiêu quả?",
+    "answer": "1 + 9 = 10"
+  },
+  {
+    "question": "Đếm số con chim trong hình và viết kết quả",
+    "answer": "Có 15 con chim"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 4, 5, ...",
+    "answer": "Số tiếp theo là 6"
+  },
+  {
+    "question": "Tính 9 + 14 = ?",
+    "answer": "9 + 14 = 23"
+  },
+  {
+    "question": "Tính 18 - 17 = ?",
+    "answer": "18 - 17 = 1"
+  },
+  {
+    "question": "Bình có 4 quyển sách. Nam có 6 quyển sách. Hỏi hai bạn có tất cả bao nhiêu quyển sách?",
+    "answer": "4 + 6 = 10"
+  },
+  {
+    "question": "So sánh 12 và 16 bằng dấu >, <, =",
+    "answer": "12 < 16"
+  },
+  {
+    "question": "Tính 23 - 12 = ?",
+    "answer": "23 - 12 = 11"
+  },
+  {
+    "question": "Tính 23 - 2 = ?",
+    "answer": "23 - 2 = 21"
+  },
+  {
+    "question": "Tính 15 + 19 = ?",
+    "answer": "15 + 19 = 34"
+  },
+  {
+    "question": "Lan có 15 cái kẹo. Lan ăn mất 1 cái kẹo. Hỏi Lan còn lại bao nhiêu cái kẹo?",
+    "answer": "15 - 1 = 14"
+  },
+  {
+    "question": "Tính 9 + 20 = ?",
+    "answer": "9 + 20 = 29"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 10, 12, ...",
+    "answer": "Số tiếp theo là 14"
+  },
+  {
+    "question": "So sánh 7 và 2 bằng dấu >, <, =",
+    "answer": "7 > 2"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 7, 8, 9, ...",
+    "answer": "Số tiếp theo là 10"
+  },
+  {
+    "question": "Mẹ có 18 quả trứng. Mẹ đã dùng 11 quả để làm bánh. Hỏi mẹ còn lại bao nhiêu quả trứng?",
+    "answer": "18 - 11 = 7"
+  },
+  {
+    "question": "Trên cây có 18 con chim. Có 4 con chim bay đi. Hỏi trên cây còn lại bao nhiêu con chim?",
+    "answer": "18 - 4 = 14"
+  },
+  {
+    "question": "So sánh 5 và 4 bằng dấu >, <, =",
+    "answer": "5 > 4"
+  },
+  {
+    "question": "Tính 10 - 9 = ?",
+    "answer": "10 - 9 = 1"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 7, 9, 11, ...",
+    "answer": "Số tiếp theo là 13"
+  },
+  {
+    "question": "Tính 16 + 17 = ?",
+    "answer": "16 + 17 = 33"
+  },
+  {
+    "question": "Tính 23 - 4 = ?",
+    "answer": "23 - 4 = 19"
+  },
+  {
+    "question": "Trong vườn có 5 cây hoa hồng và 2 cây hoa cúc. Hỏi trong vườn có tất cả bao nhiêu cây hoa?",
+    "answer": "5 + 2 = 7"
+  },
+  {
+    "question": "Tính 4 + 20 = ?",
+    "answer": "4 + 20 = 24"
+  },
+  {
+    "question": "Tính 11 - 10 = ?",
+    "answer": "11 - 10 = 1"
+  },
+  {
+    "question": "Hải có 4 quả táo. Hải được mẹ cho thêm 8 quả táo. Hỏi Hải có tất cả bao nhiêu quả táo?",
+    "answer": "4 + 8 = 12"
+  },
+  {
+    "question": "So sánh 4 và 8 bằng dấu >, <, =",
+    "answer": "4 < 8"
+  },
+  {
+    "question": "Tính 21 - 15 = ?",
+    "answer": "21 - 15 = 6"
+  },
+  {
+    "question": "Tính 22 - 1 = ?",
+    "answer": "22 - 1 = 21"
+  },
+  {
+    "question": "Bình có 2 quyển sách. Nam có 8 quyển sách. Hỏi hai bạn có tất cả bao nhiêu quyển sách?",
+    "answer": "2 + 8 = 10"
+  },
+  {
+    "question": "Tính 19 - 9 = ?",
+    "answer": "19 - 9 = 10"
+  },
+  {
+    "question": "So sánh 15 và 12 bằng dấu >, <, =",
+    "answer": "15 > 12"
+  },
+  {
+    "question": "So sánh 6 và 10 bằng dấu >, <, =",
+    "answer": "6 < 10"
+  },
+  {
+    "question": "Mẹ có 15 quả trứng. Mẹ đã dùng 10 quả để làm bánh. Hỏi mẹ còn lại bao nhiêu quả trứng?",
+    "answer": "15 - 10 = 5"
+  },
+  {
+    "question": "Tính 11 + 3 = ?",
+    "answer": "11 + 3 = 14"
+  },
+  {
+    "question": "So sánh 20 và 3 bằng dấu >, <, =",
+    "answer": "20 > 3"
+  },
+  {
+    "question": "Lan có 9 cái kẹo. Lan ăn mất 9 cái kẹo. Hỏi Lan còn lại bao nhiêu cái kẹo?",
+    "answer": "9 - 9 = 0"
+  },
+  {
+    "question": "So sánh 17 và 8 bằng dấu >, <, =",
+    "answer": "17 > 8"
+  },
+  {
+    "question": "Bố mua 7 quả cam và 2 quả quýt. Hỏi bố mua tất cả bao nhiêu quả?",
+    "answer": "7 + 2 = 9"
+  },
+  {
+    "question": "Tính 6 + 2 = ?",
+    "answer": "6 + 2 = 8"
+  },
+  {
+    "question": "So sánh 5 và 15 bằng dấu >, <, =",
+    "answer": "5 < 15"
+  },
+  {
+    "question": "Tính 15 - 12 = ?",
+    "answer": "15 - 12 = 3"
+  },
+  {
+    "question": "Trong vườn có 7 cây hoa hồng và 2 cây hoa cúc. Hỏi trong vườn có tất cả bao nhiêu cây hoa?",
+    "answer": "7 + 2 = 9"
+  },
+  {
+    "question": "Đếm số cái bàn trong hình và viết kết quả",
+    "answer": "Có 15 cái bàn"
+  },
+  {
+    "question": "Tính 30 - 27 = ?",
+    "answer": "30 - 27 = 3"
+  },
+  {
+    "question": "Tính 12 - 8 = ?",
+    "answer": "12 - 8 = 4"
+  },
+  {
+    "question": "So sánh 6 và 1 bằng dấu >, <, =",
+    "answer": "6 > 1"
+  },
+  {
+    "question": "So sánh 12 và 5 bằng dấu >, <, =",
+    "answer": "12 > 5"
+  },
+  {
+    "question": "So sánh 18 và 20 bằng dấu >, <, =",
+    "answer": "18 < 20"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 7, 9, ...",
+    "answer": "Số tiếp theo là 11"
+  },
+  {
+    "question": "Bố mua 4 quả cam và 7 quả quýt. Hỏi bố mua tất cả bao nhiêu quả?",
+    "answer": "4 + 7 = 11"
+  },
+  {
+    "question": "Tính 19 - 17 = ?",
+    "answer": "19 - 17 = 2"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 2, 4, ...",
+    "answer": "Số tiếp theo là 6"
+  },
+  {
+    "question": "Tính 22 - 13 = ?",
+    "answer": "22 - 13 = 9"
+  },
+  {
+    "question": "Tính 18 + 1 = ?",
+    "answer": "18 + 1 = 19"
+  },
+  {
+    "question": "Trên cây có 11 con chim. Có 7 con chim bay đi. Hỏi trên cây còn lại bao nhiêu con chim?",
+    "answer": "11 - 7 = 4"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 4, 7, ...",
+    "answer": "Số tiếp theo là 10"
+  },
+  {
+    "question": "Đếm số cái kẹo trong hình và viết kết quả",
+    "answer": "Có 5 cái kẹo"
+  },
+  {
+    "question": "Đếm số quả táo trong hình và viết kết quả",
+    "answer": "Có 10 quả táo"
+  },
+  {
+    "question": "So sánh 20 và 12 bằng dấu >, <, =",
+    "answer": "20 > 12"
+  },
+  {
+    "question": "Tính 18 + 14 = ?",
+    "answer": "18 + 14 = 32"
+  },
+  {
+    "question": "Hải có 1 quả táo. Hải được mẹ cho thêm 7 quả táo. Hỏi Hải có tất cả bao nhiêu quả táo?",
+    "answer": "1 + 7 = 8"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 4, 7, ...",
+    "answer": "Số tiếp theo là 10"
+  },
+  {
+    "question": "So sánh 17 và 19 bằng dấu >, <, =",
+    "answer": "17 < 19"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 3, 4, 5, ...",
+    "answer": "Số tiếp theo là 6"
+  },
+  {
+    "question": "Hải có 3 quả táo. Hải được mẹ cho thêm 4 quả táo. Hỏi Hải có tất cả bao nhiêu quả táo?",
+    "answer": "3 + 4 = 7"
+  },
+  {
+    "question": "So sánh 2 và 19 bằng dấu >, <, =",
+    "answer": "2 < 19"
+  },
+  {
+    "question": "Bố mua 3 quả cam và 4 quả quýt. Hỏi bố mua tất cả bao nhiêu quả?",
+    "answer": "3 + 4 = 7"
+  },
+  {
+    "question": "Mẹ có 6 quả trứng. Mẹ đã dùng 2 quả để làm bánh. Hỏi mẹ còn lại bao nhiêu quả trứng?",
+    "answer": "6 - 2 = 4"
+  },
+  {
+    "question": "Hải có 8 quả táo. Hải được mẹ cho thêm 9 quả táo. Hỏi Hải có tất cả bao nhiêu quả táo?",
+    "answer": "8 + 9 = 17"
+  },
+  {
+    "question": "Tính 10 - 7 = ?",
+    "answer": "10 - 7 = 3"
+  },
+  {
+    "question": "So sánh 18 và 14 bằng dấu >, <, =",
+    "answer": "18 > 14"
+  },
+  {
+    "question": "Tính 24 - 9 = ?",
+    "answer": "24 - 9 = 15"
+  },
+  {
+    "question": "Đếm số cái bút trong hình và viết kết quả",
+    "answer": "Có 9 cái bút"
+  },
+  {
+    "question": "Tính 10 + 19 = ?",
+    "answer": "10 + 19 = 29"
+  },
+  {
+    "question": "Đếm số quả táo trong hình và viết kết quả",
+    "answer": "Có 6 quả táo"
+  },
+  {
+    "question": "Tính 16 - 9 = ?",
+    "answer": "16 - 9 = 7"
+  },
+  {
+    "question": "Bố mua 5 quả cam và 2 quả quýt. Hỏi bố mua tất cả bao nhiêu quả?",
+    "answer": "5 + 2 = 7"
+  },
+  {
+    "question": "So sánh 2 và 4 bằng dấu >, <, =",
+    "answer": "2 < 4"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 5, 7, 9, 11, ...",
+    "answer": "Số tiếp theo là 13"
+  },
+  {
+    "question": "Hải có 3 quả táo. Hải được mẹ cho thêm 4 quả táo. Hỏi Hải có tất cả bao nhiêu quả táo?",
+    "answer": "3 + 4 = 7"
+  },
+  {
+    "question": "Tính 30 - 26 = ?",
+    "answer": "30 - 26 = 4"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 6, 8, ...",
+    "answer": "Số tiếp theo là 10"
+  },
+  {
+    "question": "Trong vườn có 10 cây hoa hồng và 8 cây hoa cúc. Hỏi trong vườn có tất cả bao nhiêu cây hoa?",
+    "answer": "10 + 8 = 18"
+  },
+  {
+    "question": "Bố mua 4 quả cam và 8 quả quýt. Hỏi bố mua tất cả bao nhiêu quả?",
+    "answer": "4 + 8 = 12"
+  },
+  {
+    "question": "Bình có 6 quyển sách. Nam có 5 quyển sách. Hỏi hai bạn có tất cả bao nhiêu quyển sách?",
+    "answer": "6 + 5 = 11"
+  },
+  {
+    "question": "Đếm số quả táo trong hình và viết kết quả",
+    "answer": "Có 13 quả táo"
+  },
+  {
+    "question": "Tính 13 - 11 = ?",
+    "answer": "13 - 11 = 2"
+  },
+  {
+    "question": "Đếm số cái bút trong hình và viết kết quả",
+    "answer": "Có 11 cái bút"
+  },
+  {
+    "question": "Tính 11 - 5 = ?",
+    "answer": "11 - 5 = 6"
+  },
+  {
+    "question": "Tính 23 - 6 = ?",
+    "answer": "23 - 6 = 17"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 2, 3, ...",
+    "answer": "Số tiếp theo là 4"
+  },
+  {
+    "question": "Tính 4 + 10 = ?",
+    "answer": "4 + 10 = 14"
+  },
+  {
+    "question": "Tính 13 - 8 = ?",
+    "answer": "13 - 8 = 5"
+  },
+  {
+    "question": "Tính 3 + 4 = ?",
+    "answer": "3 + 4 = 7"
+  },
+  {
+    "question": "Tính 24 - 24 = ?",
+    "answer": "24 - 24 = 0"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 2, 5, 8, ...",
+    "answer": "Số tiếp theo là 11"
+  },
+  {
+    "question": "Tính 15 - 13 = ?",
+    "answer": "15 - 13 = 2"
+  },
+  {
+    "question": "Tính 25 - 16 = ?",
+    "answer": "25 - 16 = 9"
+  },
+  {
+    "question": "Tính 18 - 18 = ?",
+    "answer": "18 - 18 = 0"
+  },
+  {
+    "question": "So sánh 14 và 15 bằng dấu >, <, =",
+    "answer": "14 < 15"
+  },
+  {
+    "question": "Đếm số cái bút trong hình và viết kết quả",
+    "answer": "Có 10 cái bút"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 7, 10, ...",
+    "answer": "Số tiếp theo là 13"
+  },
+  {
+    "question": "Đếm số cái kẹo trong hình và viết kết quả",
+    "answer": "Có 8 cái kẹo"
+  },
+  {
+    "question": "Đếm số quả cam trong hình và viết kết quả",
+    "answer": "Có 14 quả cam"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 3, 5, 7, ...",
+    "answer": "Số tiếp theo là 9"
+  },
+  {
+    "question": "Tính 28 - 6 = ?",
+    "answer": "28 - 6 = 22"
+  },
+  {
+    "question": "Tính 24 - 15 = ?",
+    "answer": "24 - 15 = 9"
+  },
+  {
+    "question": "Bố mua 10 quả cam và 9 quả quýt. Hỏi bố mua tất cả bao nhiêu quả?",
+    "answer": "10 + 9 = 19"
+  },
+  {
+    "question": "So sánh 16 và 17 bằng dấu >, <, =",
+    "answer": "16 < 17"
+  },
+  {
+    "question": "Bố mua 8 quả cam và 5 quả quýt. Hỏi bố mua tất cả bao nhiêu quả?",
+    "answer": "8 + 5 = 13"
+  },
+  {
+    "question": "Đếm số quyển sách trong hình và viết kết quả",
+    "answer": "Có 12 quyển sách"
+  },
+  {
+    "question": "Tính 9 + 1 = ?",
+    "answer": "9 + 1 = 10"
+  },
+  {
+    "question": "Tính 17 + 15 = ?",
+    "answer": "17 + 15 = 32"
+  },
+  {
+    "question": "Tính 13 + 16 = ?",
+    "answer": "13 + 16 = 29"
+  },
+  {
+    "question": "So sánh 3 và 3 bằng dấu >, <, =",
+    "answer": "3 = 3"
+  },
+  {
+    "question": "Bình có 8 quyển sách. Nam có 7 quyển sách. Hỏi hai bạn có tất cả bao nhiêu quyển sách?",
+    "answer": "8 + 7 = 15"
+  },
+  {
+    "question": "Tính 14 + 12 = ?",
+    "answer": "14 + 12 = 26"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 1, 3, 5, 7, ...",
+    "answer": "Số tiếp theo là 9"
+  },
+  {
+    "question": "Tính 24 - 15 = ?",
+    "answer": "24 - 15 = 9"
+  },
+  {
+    "question": "Tính 2 + 10 = ?",
+    "answer": "2 + 10 = 12"
+  },
+  {
+    "question": "Bình có 2 quyển sách. Nam có 4 quyển sách. Hỏi hai bạn có tất cả bao nhiêu quyển sách?",
+    "answer": "2 + 4 = 6"
+  },
+  {
+    "question": "Tính 14 + 19 = ?",
+    "answer": "14 + 19 = 33"
+  },
+  {
+    "question": "Tính 11 - 6 = ?",
+    "answer": "11 - 6 = 5"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 2, 5, 8, ...",
+    "answer": "Số tiếp theo là 11"
+  },
+  {
+    "question": "Tính 26 - 23 = ?",
+    "answer": "26 - 23 = 3"
+  },
+  {
+    "question": "Tính 2 + 16 = ?",
+    "answer": "2 + 16 = 18"
+  },
+  {
+    "question": "Bình có 8 quyển sách. Nam có 6 quyển sách. Hỏi hai bạn có tất cả bao nhiêu quyển sách?",
+    "answer": "8 + 6 = 14"
+  },
+  {
+    "question": "Hải có 6 quả táo. Hải được mẹ cho thêm 8 quả táo. Hỏi Hải có tất cả bao nhiêu quả táo?",
+    "answer": "6 + 8 = 14"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 2, 5, 8, ...",
+    "answer": "Số tiếp theo là 11"
+  },
+  {
+    "question": "Tính 7 + 9 = ?",
+    "answer": "7 + 9 = 16"
+  },
+  {
+    "question": "Tính 15 - 6 = ?",
+    "answer": "15 - 6 = 9"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 9, 12, ...",
+    "answer": "Số tiếp theo là 15"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 10, 11, 12, ...",
+    "answer": "Số tiếp theo là 13"
+  },
+  {
+    "question": "So sánh 5 và 17 bằng dấu >, <, =",
+    "answer": "5 < 17"
+  },
+  {
+    "question": "So sánh 1 và 12 bằng dấu >, <, =",
+    "answer": "1 < 12"
+  },
+  {
+    "question": "So sánh 6 và 12 bằng dấu >, <, =",
+    "answer": "6 < 12"
+  },
+  {
+    "question": "Tính 21 - 10 = ?",
+    "answer": "21 - 10 = 11"
+  },
+  {
+    "question": "Tính 10 + 14 = ?",
+    "answer": "10 + 14 = 24"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 5, 8, 11, 14, ...",
+    "answer": "Số tiếp theo là 17"
+  },
+  {
+    "question": "Tính 10 + 13 = ?",
+    "answer": "10 + 13 = 23"
+  },
+  {
+    "question": "So sánh 7 và 8 bằng dấu >, <, =",
+    "answer": "7 < 8"
+  },
+  {
+    "question": "Tính 12 - 9 = ?",
+    "answer": "12 - 9 = 3"
+  },
+  {
+    "question": "So sánh 5 và 19 bằng dấu >, <, =",
+    "answer": "5 < 19"
+  },
+  {
+    "question": "Tính 5 + 4 = ?",
+    "answer": "5 + 4 = 9"
+  },
+  {
+    "question": "Tính 20 + 11 = ?",
+    "answer": "20 + 11 = 31"
+  },
+  {
+    "question": "Tính 16 - 12 = ?",
+    "answer": "16 - 12 = 4"
+  },
+  {
+    "question": "Trong vườn có 3 cây hoa hồng và 2 cây hoa cúc. Hỏi trong vườn có tất cả bao nhiêu cây hoa?",
+    "answer": "3 + 2 = 5"
+  },
+  {
+    "question": "Đếm số quả cam trong hình và viết kết quả",
+    "answer": "Có 10 quả cam"
+  },
+  {
+    "question": "Bố mua 3 quả cam và 5 quả quýt. Hỏi bố mua tất cả bao nhiêu quả?",
+    "answer": "3 + 5 = 8"
+  },
+  {
+    "question": "Tính 19 - 9 = ?",
+    "answer": "19 - 9 = 10"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 4, 6, 8, 10, ...",
+    "answer": "Số tiếp theo là 12"
+  },
+  {
+    "question": "Tính 13 + 17 = ?",
+    "answer": "13 + 17 = 30"
+  },
+  {
+    "question": "Tính 13 - 13 = ?",
+    "answer": "13 - 13 = 0"
+  },
+  {
+    "question": "Đếm số quả táo trong hình và viết kết quả",
+    "answer": "Có 9 quả táo"
+  },
+  {
+    "question": "Đếm số con chó trong hình và viết kết quả",
+    "answer": "Có 7 con chó"
+  },
+  {
+    "question": "Tính 18 + 19 = ?",
+    "answer": "18 + 19 = 37"
+  },
+  {
+    "question": "So sánh 14 và 1 bằng dấu >, <, =",
+    "answer": "14 > 1"
+  },
+  {
+    "question": "Tính 14 - 14 = ?",
+    "answer": "14 - 14 = 0"
+  },
+  {
+    "question": "Mẹ có 13 quả trứng. Mẹ đã dùng 6 quả để làm bánh. Hỏi mẹ còn lại bao nhiêu quả trứng?",
+    "answer": "13 - 6 = 7"
+  },
+  {
+    "question": "Mẹ có 6 quả trứng. Mẹ đã dùng 2 quả để làm bánh. Hỏi mẹ còn lại bao nhiêu quả trứng?",
+    "answer": "6 - 2 = 4"
+  },
+  {
+    "question": "So sánh 16 và 15 bằng dấu >, <, =",
+    "answer": "16 > 15"
+  },
+  {
+    "question": "Tính 23 - 18 = ?",
+    "answer": "23 - 18 = 5"
+  },
+  {
+    "question": "Tính 11 + 16 = ?",
+    "answer": "11 + 16 = 27"
+  },
+  {
+    "question": "Đếm số quả táo trong hình và viết kết quả",
+    "answer": "Có 7 quả táo"
+  },
+  {
+    "question": "So sánh 15 và 15 bằng dấu >, <, =",
+    "answer": "15 = 15"
+  },
+  {
+    "question": "Tính 10 + 9 = ?",
+    "answer": "10 + 9 = 19"
+  },
+  {
+    "question": "Tính 15 - 12 = ?",
+    "answer": "15 - 12 = 3"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 10, 12, 14, 16, ...",
+    "answer": "Số tiếp theo là 18"
+  },
+  {
+    "question": "So sánh 19 và 8 bằng dấu >, <, =",
+    "answer": "19 > 8"
+  },
+  {
+    "question": "Trong vườn có 2 cây hoa hồng và 8 cây hoa cúc. Hỏi trong vườn có tất cả bao nhiêu cây hoa?",
+    "answer": "2 + 8 = 10"
+  },
+  {
+    "question": "Tính 16 - 16 = ?",
+    "answer": "16 - 16 = 0"
+  },
+  {
+    "question": "So sánh 5 và 7 bằng dấu >, <, =",
+    "answer": "5 < 7"
+  },
+  {
+    "question": "Bố mua 1 quả cam và 1 quả quýt. Hỏi bố mua tất cả bao nhiêu quả?",
+    "answer": "1 + 1 = 2"
+  },
+  {
+    "question": "Tính 3 + 5 = ?",
+    "answer": "3 + 5 = 8"
+  },
+  {
+    "question": "Tính 13 - 12 = ?",
+    "answer": "13 - 12 = 1"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 5, 8, 11, 14, ...",
+    "answer": "Số tiếp theo là 17"
+  },
+  {
+    "question": "Tính 8 + 9 = ?",
+    "answer": "8 + 9 = 17"
+  },
+  {
+    "question": "Tính 5 + 7 = ?",
+    "answer": "5 + 7 = 12"
+  },
+  {
+    "question": "Tính 6 + 16 = ?",
+    "answer": "6 + 16 = 22"
+  },
+  {
+    "question": "So sánh 6 và 11 bằng dấu >, <, =",
+    "answer": "6 < 11"
+  },
+  {
+    "question": "Đếm số cái bút trong hình và viết kết quả",
+    "answer": "Có 12 cái bút"
+  },
+  {
+    "question": "Tính 17 + 16 = ?",
+    "answer": "17 + 16 = 33"
+  },
+  {
+    "question": "Tính 2 + 17 = ?",
+    "answer": "2 + 17 = 19"
+  },
+  {
+    "question": "Tính 22 - 19 = ?",
+    "answer": "22 - 19 = 3"
+  },
+  {
+    "question": "Tính 17 - 10 = ?",
+    "answer": "17 - 10 = 7"
+  },
+  {
+    "question": "Tính 13 + 8 = ?",
+    "answer": "13 + 8 = 21"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 4, 5, 6, ...",
+    "answer": "Số tiếp theo là 7"
+  },
+  {
+    "question": "Tính 10 - 9 = ?",
+    "answer": "10 - 9 = 1"
+  },
+  {
+    "question": "Trong vườn có 8 cây hoa hồng và 5 cây hoa cúc. Hỏi trong vườn có tất cả bao nhiêu cây hoa?",
+    "answer": "8 + 5 = 13"
+  },
+  {
+    "question": "So sánh 16 và 16 bằng dấu >, <, =",
+    "answer": "16 = 16"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 9, 11, 13, 15, ...",
+    "answer": "Số tiếp theo là 17"
+  },
+  {
+    "question": "Bình có 9 quyển sách. Nam có 5 quyển sách. Hỏi hai bạn có tất cả bao nhiêu quyển sách?",
+    "answer": "9 + 5 = 14"
+  },
+  {
+    "question": "Đếm số quyển sách trong hình và viết kết quả",
+    "answer": "Có 9 quyển sách"
+  },
+  {
+    "question": "Lan có 11 cái kẹo. Lan ăn mất 1 cái kẹo. Hỏi Lan còn lại bao nhiêu cái kẹo?",
+    "answer": "11 - 1 = 10"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 9, 10, ...",
+    "answer": "Số tiếp theo là 11"
+  },
+  {
+    "question": "Tính 4 + 17 = ?",
+    "answer": "4 + 17 = 21"
+  },
+  {
+    "question": "Trên cây có 19 con chim. Có 17 con chim bay đi. Hỏi trên cây còn lại bao nhiêu con chim?",
+    "answer": "19 - 17 = 2"
+  },
+  {
+    "question": "Đếm số cái bàn trong hình và viết kết quả",
+    "answer": "Có 13 cái bàn"
+  },
+  {
+    "question": "Lan có 19 cái kẹo. Lan ăn mất 6 cái kẹo. Hỏi Lan còn lại bao nhiêu cái kẹo?",
+    "answer": "19 - 6 = 13"
+  },
+  {
+    "question": "Tính 5 + 19 = ?",
+    "answer": "5 + 19 = 24"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 7, 8, ...",
+    "answer": "Số tiếp theo là 9"
+  },
+  {
+    "question": "Tính 15 + 7 = ?",
+    "answer": "15 + 7 = 22"
+  },
+  {
+    "question": "Trên cây có 11 con chim. Có 8 con chim bay đi. Hỏi trên cây còn lại bao nhiêu con chim?",
+    "answer": "11 - 8 = 3"
+  },
+  {
+    "question": "Tính 12 + 12 = ?",
+    "answer": "12 + 12 = 24"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 2, 4, 6, ...",
+    "answer": "Số tiếp theo là 8"
+  },
+  {
+    "question": "Tính 6 + 13 = ?",
+    "answer": "6 + 13 = 19"
+  },
+  {
+    "question": "Tính 8 + 1 = ?",
+    "answer": "8 + 1 = 9"
+  },
+  {
+    "question": "So sánh 5 và 9 bằng dấu >, <, =",
+    "answer": "5 < 9"
+  },
+  {
+    "question": "Bình có 1 quyển sách. Nam có 6 quyển sách. Hỏi hai bạn có tất cả bao nhiêu quyển sách?",
+    "answer": "1 + 6 = 7"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 7, 8, 9, ...",
+    "answer": "Số tiếp theo là 10"
+  },
+  {
+    "question": "Tính 12 + 18 = ?",
+    "answer": "12 + 18 = 30"
+  },
+  {
+    "question": "Tính 5 + 13 = ?",
+    "answer": "5 + 13 = 18"
+  },
+  {
+    "question": "Tính 26 - 3 = ?",
+    "answer": "26 - 3 = 23"
+  },
+  {
+    "question": "Tính 26 - 23 = ?",
+    "answer": "26 - 23 = 3"
+  },
+  {
+    "question": "Đếm số quyển sách trong hình và viết kết quả",
+    "answer": "Có 6 quyển sách"
+  },
+  {
+    "question": "Đếm số quyển sách trong hình và viết kết quả",
+    "answer": "Có 8 quyển sách"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 8, 9, 10, 11, ...",
+    "answer": "Số tiếp theo là 12"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 3, 5, ...",
+    "answer": "Số tiếp theo là 7"
+  },
+  {
+    "question": "So sánh 13 và 10 bằng dấu >, <, =",
+    "answer": "13 > 10"
+  },
+  {
+    "question": "Tính 21 - 16 = ?",
+    "answer": "21 - 16 = 5"
+  },
+  {
+    "question": "Tính 3 + 1 = ?",
+    "answer": "3 + 1 = 4"
+  },
+  {
+    "question": "So sánh 10 và 10 bằng dấu >, <, =",
+    "answer": "10 = 10"
+  },
+  {
+    "question": "Tính 20 - 5 = ?",
+    "answer": "20 - 5 = 15"
+  },
+  {
+    "question": "Tính 28 - 6 = ?",
+    "answer": "28 - 6 = 22"
+  },
+  {
+    "question": "Tính 16 - 5 = ?",
+    "answer": "16 - 5 = 11"
+  },
+  {
+    "question": "Tính 7 + 12 = ?",
+    "answer": "7 + 12 = 19"
+  },
+  {
+    "question": "Lan có 9 cái kẹo. Lan ăn mất 9 cái kẹo. Hỏi Lan còn lại bao nhiêu cái kẹo?",
+    "answer": "9 - 9 = 0"
+  },
+  {
+    "question": "Lớp 1A có 3 bạn nam và 2 bạn nữ. Hỏi lớp 1A có tất cả bao nhiêu học sinh?",
+    "answer": "3 + 2 = 5"
+  },
+  {
+    "question": "Đếm số cái bút trong hình và viết kết quả",
+    "answer": "Có 6 cái bút"
+  },
+  {
+    "question": "Lớp 1A có 5 bạn nam và 6 bạn nữ. Hỏi lớp 1A có tất cả bao nhiêu học sinh?",
+    "answer": "5 + 6 = 11"
+  },
+  {
+    "question": "Tính 24 - 4 = ?",
+    "answer": "24 - 4 = 20"
+  },
+  {
+    "question": "Tính 5 + 1 = ?",
+    "answer": "5 + 1 = 6"
+  },
+  {
+    "question": "Bình có 8 quyển sách. Nam có 8 quyển sách. Hỏi hai bạn có tất cả bao nhiêu quyển sách?",
+    "answer": "8 + 8 = 16"
+  },
+  {
+    "question": "So sánh 9 và 20 bằng dấu >, <, =",
+    "answer": "9 < 20"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 6, 8, 10, 12, ...",
+    "answer": "Số tiếp theo là 14"
+  },
+  {
+    "question": "So sánh 18 và 1 bằng dấu >, <, =",
+    "answer": "18 > 1"
+  },
+  {
+    "question": "Lan có 5 cái kẹo. Lan ăn mất 4 cái kẹo. Hỏi Lan còn lại bao nhiêu cái kẹo?",
+    "answer": "5 - 4 = 1"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 6, 9, 12, ...",
+    "answer": "Số tiếp theo là 15"
+  },
+  {
+    "question": "Lớp 1A có 3 bạn nam và 3 bạn nữ. Hỏi lớp 1A có tất cả bao nhiêu học sinh?",
+    "answer": "3 + 3 = 6"
+  },
+  {
+    "question": "Tính 11 + 17 = ?",
+    "answer": "11 + 17 = 28"
+  },
+  {
+    "question": "Tính 26 - 15 = ?",
+    "answer": "26 - 15 = 11"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 5, 6, ...",
+    "answer": "Số tiếp theo là 7"
+  },
+  {
+    "question": "Tính 18 + 14 = ?",
+    "answer": "18 + 14 = 32"
+  },
+  {
+    "question": "Tính 23 - 4 = ?",
+    "answer": "23 - 4 = 19"
+  },
+  {
+    "question": "Tính 15 - 3 = ?",
+    "answer": "15 - 3 = 12"
+  },
+  {
+    "question": "Tính 17 + 6 = ?",
+    "answer": "17 + 6 = 23"
+  },
+  {
+    "question": "Tính 16 + 8 = ?",
+    "answer": "16 + 8 = 24"
+  },
+  {
+    "question": "Mẹ có 6 quả trứng. Mẹ đã dùng 2 quả để làm bánh. Hỏi mẹ còn lại bao nhiêu quả trứng?",
+    "answer": "6 - 2 = 4"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 3, 5, 7, 9, ...",
+    "answer": "Số tiếp theo là 11"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 1, 2, 3, ...",
+    "answer": "Số tiếp theo là 4"
+  },
+  {
+    "question": "So sánh 8 và 15 bằng dấu >, <, =",
+    "answer": "8 < 15"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 2, 3, ...",
+    "answer": "Số tiếp theo là 4"
+  },
+  {
+    "question": "Đếm số quyển sách trong hình và viết kết quả",
+    "answer": "Có 12 quyển sách"
+  },
+  {
+    "question": "Bình có 5 quyển sách. Nam có 3 quyển sách. Hỏi hai bạn có tất cả bao nhiêu quyển sách?",
+    "answer": "5 + 3 = 8"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 10, 12, 14, 16, ...",
+    "answer": "Số tiếp theo là 18"
+  },
+  {
+    "question": "Lớp 1A có 3 bạn nam và 5 bạn nữ. Hỏi lớp 1A có tất cả bao nhiêu học sinh?",
+    "answer": "3 + 5 = 8"
+  },
+  {
+    "question": "Tính 27 - 27 = ?",
+    "answer": "27 - 27 = 0"
+  },
+  {
+    "question": "Tính 4 + 3 = ?",
+    "answer": "4 + 3 = 7"
+  },
+  {
+    "question": "So sánh 5 và 7 bằng dấu >, <, =",
+    "answer": "5 < 7"
+  },
+  {
+    "question": "Đếm số cái bút trong hình và viết kết quả",
+    "answer": "Có 11 cái bút"
+  },
+  {
+    "question": "Tính 8 + 15 = ?",
+    "answer": "8 + 15 = 23"
+  },
+  {
+    "question": "So sánh 9 và 10 bằng dấu >, <, =",
+    "answer": "9 < 10"
+  },
+  {
+    "question": "Tính 26 - 12 = ?",
+    "answer": "26 - 12 = 14"
+  },
+  {
+    "question": "Tính 5 + 17 = ?",
+    "answer": "5 + 17 = 22"
+  },
+  {
+    "question": "Tính 17 + 4 = ?",
+    "answer": "17 + 4 = 21"
+  },
+  {
+    "question": "Hải có 10 quả táo. Hải được mẹ cho thêm 2 quả táo. Hỏi Hải có tất cả bao nhiêu quả táo?",
+    "answer": "10 + 2 = 12"
+  },
+  {
+    "question": "Tính 8 + 10 = ?",
+    "answer": "8 + 10 = 18"
+  },
+  {
+    "question": "Đếm số quả cam trong hình và viết kết quả",
+    "answer": "Có 12 quả cam"
+  },
+  {
+    "question": "Đếm số cái kẹo trong hình và viết kết quả",
+    "answer": "Có 13 cái kẹo"
+  },
+  {
+    "question": "Đếm số cái bàn trong hình và viết kết quả",
+    "answer": "Có 5 cái bàn"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 3, 5, 7, 9, ...",
+    "answer": "Số tiếp theo là 11"
+  },
+  {
+    "question": "Bố mua 8 quả cam và 5 quả quýt. Hỏi bố mua tất cả bao nhiêu quả?",
+    "answer": "8 + 5 = 13"
+  },
+  {
+    "question": "Tính 21 - 7 = ?",
+    "answer": "21 - 7 = 14"
+  },
+  {
+    "question": "Tính 20 - 11 = ?",
+    "answer": "20 - 11 = 9"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 9, 11, 13, ...",
+    "answer": "Số tiếp theo là 15"
+  },
+  {
+    "question": "Bình có 1 quyển sách. Nam có 10 quyển sách. Hỏi hai bạn có tất cả bao nhiêu quyển sách?",
+    "answer": "1 + 10 = 11"
+  },
+  {
+    "question": "Tính 6 + 13 = ?",
+    "answer": "6 + 13 = 19"
+  },
+  {
+    "question": "Đếm số con chim trong hình và viết kết quả",
+    "answer": "Có 9 con chim"
+  },
+  {
+    "question": "Đếm số cái kẹo trong hình và viết kết quả",
+    "answer": "Có 9 cái kẹo"
+  },
+  {
+    "question": "So sánh 13 và 9 bằng dấu >, <, =",
+    "answer": "13 > 9"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 7, 8, ...",
+    "answer": "Số tiếp theo là 9"
+  },
+  {
+    "question": "Trong vườn có 3 cây hoa hồng và 8 cây hoa cúc. Hỏi trong vườn có tất cả bao nhiêu cây hoa?",
+    "answer": "3 + 8 = 11"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 5, 6, 7, 8, ...",
+    "answer": "Số tiếp theo là 9"
+  },
+  {
+    "question": "Hải có 6 quả táo. Hải được mẹ cho thêm 5 quả táo. Hỏi Hải có tất cả bao nhiêu quả táo?",
+    "answer": "6 + 5 = 11"
+  },
+  {
+    "question": "Tính 10 - 10 = ?",
+    "answer": "10 - 10 = 0"
+  },
+  {
+    "question": "Tính 10 + 7 = ?",
+    "answer": "10 + 7 = 17"
+  },
+  {
+    "question": "Tính 19 - 7 = ?",
+    "answer": "19 - 7 = 12"
+  },
+  {
+    "question": "Tính 30 - 14 = ?",
+    "answer": "30 - 14 = 16"
+  },
+  {
+    "question": "Tính 15 + 16 = ?",
+    "answer": "15 + 16 = 31"
+  },
+  {
+    "question": "Tính 17 + 13 = ?",
+    "answer": "17 + 13 = 30"
+  },
+  {
+    "question": "So sánh 9 và 3 bằng dấu >, <, =",
+    "answer": "9 > 3"
+  },
+  {
+    "question": "Tính 13 + 2 = ?",
+    "answer": "13 + 2 = 15"
+  },
+  {
+    "question": "Trong vườn có 4 cây hoa hồng và 9 cây hoa cúc. Hỏi trong vườn có tất cả bao nhiêu cây hoa?",
+    "answer": "4 + 9 = 13"
+  },
+  {
+    "question": "Tính 12 + 4 = ?",
+    "answer": "12 + 4 = 16"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 3, 4, 5, ...",
+    "answer": "Số tiếp theo là 6"
+  },
+  {
+    "question": "Tính 3 + 18 = ?",
+    "answer": "3 + 18 = 21"
+  },
+  {
+    "question": "Lan có 8 cái kẹo. Lan ăn mất 2 cái kẹo. Hỏi Lan còn lại bao nhiêu cái kẹo?",
+    "answer": "8 - 2 = 6"
+  },
+  {
+    "question": "Hải có 3 quả táo. Hải được mẹ cho thêm 10 quả táo. Hỏi Hải có tất cả bao nhiêu quả táo?",
+    "answer": "3 + 10 = 13"
+  },
+  {
+    "question": "Đếm số cái bút trong hình và viết kết quả",
+    "answer": "Có 10 cái bút"
+  },
+  {
+    "question": "Trên cây có 14 con chim. Có 6 con chim bay đi. Hỏi trên cây còn lại bao nhiêu con chim?",
+    "answer": "14 - 6 = 8"
+  },
+  {
+    "question": "Tính 10 + 17 = ?",
+    "answer": "10 + 17 = 27"
+  },
+  {
+    "question": "Tính 27 - 7 = ?",
+    "answer": "27 - 7 = 20"
+  },
+  {
+    "question": "So sánh 9 và 8 bằng dấu >, <, =",
+    "answer": "9 > 8"
+  },
+  {
+    "question": "Đếm số cái kẹo trong hình và viết kết quả",
+    "answer": "Có 5 cái kẹo"
+  },
+  {
+    "question": "Tính 3 + 18 = ?",
+    "answer": "3 + 18 = 21"
+  },
+  {
+    "question": "Đếm số cái bút trong hình và viết kết quả",
+    "answer": "Có 5 cái bút"
+  },
+  {
+    "question": "Lớp 1A có 3 bạn nam và 10 bạn nữ. Hỏi lớp 1A có tất cả bao nhiêu học sinh?",
+    "answer": "3 + 10 = 13"
+  },
+  {
+    "question": "So sánh 16 và 18 bằng dấu >, <, =",
+    "answer": "16 < 18"
+  },
+  {
+    "question": "Mẹ có 14 quả trứng. Mẹ đã dùng 3 quả để làm bánh. Hỏi mẹ còn lại bao nhiêu quả trứng?",
+    "answer": "14 - 3 = 11"
+  },
+  {
+    "question": "Tính 12 + 13 = ?",
+    "answer": "12 + 13 = 25"
+  },
+  {
+    "question": "Tính 7 + 6 = ?",
+    "answer": "7 + 6 = 13"
+  },
+  {
+    "question": "So sánh 5 và 4 bằng dấu >, <, =",
+    "answer": "5 > 4"
+  },
+  {
+    "question": "Bố mua 7 quả cam và 4 quả quýt. Hỏi bố mua tất cả bao nhiêu quả?",
+    "answer": "7 + 4 = 11"
+  },
+  {
+    "question": "Lớp 1A có 6 bạn nam và 2 bạn nữ. Hỏi lớp 1A có tất cả bao nhiêu học sinh?",
+    "answer": "6 + 2 = 8"
+  },
+  {
+    "question": "Trên cây có 6 con chim. Có 1 con chim bay đi. Hỏi trên cây còn lại bao nhiêu con chim?",
+    "answer": "6 - 1 = 5"
+  },
+  {
+    "question": "So sánh 16 và 19 bằng dấu >, <, =",
+    "answer": "16 < 19"
+  },
+  {
+    "question": "So sánh 5 và 18 bằng dấu >, <, =",
+    "answer": "5 < 18"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 4, 7, ...",
+    "answer": "Số tiếp theo là 10"
+  },
+  {
+    "question": "Bình có 2 quyển sách. Nam có 10 quyển sách. Hỏi hai bạn có tất cả bao nhiêu quyển sách?",
+    "answer": "2 + 10 = 12"
+  },
+  {
+    "question": "Tính 12 - 12 = ?",
+    "answer": "12 - 12 = 0"
+  },
+  {
+    "question": "Trong vườn có 5 cây hoa hồng và 3 cây hoa cúc. Hỏi trong vườn có tất cả bao nhiêu cây hoa?",
+    "answer": "5 + 3 = 8"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 5, 7, ...",
+    "answer": "Số tiếp theo là 9"
+  },
+  {
+    "question": "Tính 16 - 5 = ?",
+    "answer": "16 - 5 = 11"
+  },
+  {
+    "question": "Tính 9 + 16 = ?",
+    "answer": "9 + 16 = 25"
+  },
+  {
+    "question": "So sánh 19 và 8 bằng dấu >, <, =",
+    "answer": "19 > 8"
+  },
+  {
+    "question": "Đếm số con chim trong hình và viết kết quả",
+    "answer": "Có 5 con chim"
+  },
+  {
+    "question": "Lan có 5 cái kẹo. Lan ăn mất 2 cái kẹo. Hỏi Lan còn lại bao nhiêu cái kẹo?",
+    "answer": "5 - 2 = 3"
+  },
+  {
+    "question": "Tính 5 + 10 = ?",
+    "answer": "5 + 10 = 15"
+  },
+  {
+    "question": "Tính 15 + 7 = ?",
+    "answer": "15 + 7 = 22"
+  },
+  {
+    "question": "Tính 26 - 12 = ?",
+    "answer": "26 - 12 = 14"
+  },
+  {
+    "question": "Lớp 1A có 4 bạn nam và 1 bạn nữ. Hỏi lớp 1A có tất cả bao nhiêu học sinh?",
+    "answer": "4 + 1 = 5"
+  },
+  {
+    "question": "So sánh 3 và 7 bằng dấu >, <, =",
+    "answer": "3 < 7"
+  },
+  {
+    "question": "So sánh 3 và 11 bằng dấu >, <, =",
+    "answer": "3 < 11"
+  },
+  {
+    "question": "Tính 18 - 15 = ?",
+    "answer": "18 - 15 = 3"
+  },
+  {
+    "question": "Tính 15 + 17 = ?",
+    "answer": "15 + 17 = 32"
+  },
+  {
+    "question": "So sánh 6 và 16 bằng dấu >, <, =",
+    "answer": "6 < 16"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 9, 11, ...",
+    "answer": "Số tiếp theo là 13"
+  },
+  {
+    "question": "So sánh 1 và 13 bằng dấu >, <, =",
+    "answer": "1 < 13"
+  },
+  {
+    "question": "Mẹ có 7 quả trứng. Mẹ đã dùng 3 quả để làm bánh. Hỏi mẹ còn lại bao nhiêu quả trứng?",
+    "answer": "7 - 3 = 4"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 5, 8, ...",
+    "answer": "Số tiếp theo là 11"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 6, 7, ...",
+    "answer": "Số tiếp theo là 8"
+  },
+  {
+    "question": "Tính 11 + 12 = ?",
+    "answer": "11 + 12 = 23"
+  },
+  {
+    "question": "Tính 18 - 9 = ?",
+    "answer": "18 - 9 = 9"
+  },
+  {
+    "question": "Trong vườn có 3 cây hoa hồng và 10 cây hoa cúc. Hỏi trong vườn có tất cả bao nhiêu cây hoa?",
+    "answer": "3 + 10 = 13"
+  },
+  {
+    "question": "Đếm số cái ghế trong hình và viết kết quả",
+    "answer": "Có 12 cái ghế"
+  },
+  {
+    "question": "Tính 3 + 18 = ?",
+    "answer": "3 + 18 = 21"
+  },
+  {
+    "question": "So sánh 12 và 17 bằng dấu >, <, =",
+    "answer": "12 < 17"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 2, 3, 4, 5, ...",
+    "answer": "Số tiếp theo là 6"
+  },
+  {
+    "question": "Tính 29 - 15 = ?",
+    "answer": "29 - 15 = 14"
+  },
+  {
+    "question": "Tính 29 - 22 = ?",
+    "answer": "29 - 22 = 7"
+  },
+  {
+    "question": "Đếm số con mèo trong hình và viết kết quả",
+    "answer": "Có 13 con mèo"
+  },
+  {
+    "question": "So sánh 17 và 15 bằng dấu >, <, =",
+    "answer": "17 > 15"
+  },
+  {
+    "question": "So sánh 11 và 11 bằng dấu >, <, =",
+    "answer": "11 = 11"
+  },
+  {
+    "question": "Tính 9 + 5 = ?",
+    "answer": "9 + 5 = 14"
+  },
+  {
+    "question": "Tính 14 - 8 = ?",
+    "answer": "14 - 8 = 6"
+  },
+  {
+    "question": "Tính 10 - 7 = ?",
+    "answer": "10 - 7 = 3"
+  },
+  {
+    "question": "Đếm số quả táo trong hình và viết kết quả",
+    "answer": "Có 13 quả táo"
+  },
+  {
+    "question": "Trên cây có 6 con chim. Có 6 con chim bay đi. Hỏi trên cây còn lại bao nhiêu con chim?",
+    "answer": "6 - 6 = 0"
+  },
+  {
+    "question": "Tính 1 + 5 = ?",
+    "answer": "1 + 5 = 6"
+  },
+  {
+    "question": "Đếm số cái ghế trong hình và viết kết quả",
+    "answer": "Có 5 cái ghế"
+  },
+  {
+    "question": "Mẹ có 8 quả trứng. Mẹ đã dùng 6 quả để làm bánh. Hỏi mẹ còn lại bao nhiêu quả trứng?",
+    "answer": "8 - 6 = 2"
+  },
+  {
+    "question": "Tính 19 + 9 = ?",
+    "answer": "19 + 9 = 28"
+  },
+  {
+    "question": "Đếm số con mèo trong hình và viết kết quả",
+    "answer": "Có 9 con mèo"
+  },
+  {
+    "question": "Tính 26 - 11 = ?",
+    "answer": "26 - 11 = 15"
+  },
+  {
+    "question": "Lan có 14 cái kẹo. Lan ăn mất 5 cái kẹo. Hỏi Lan còn lại bao nhiêu cái kẹo?",
+    "answer": "14 - 5 = 9"
+  },
+  {
+    "question": "Mẹ có 19 quả trứng. Mẹ đã dùng 2 quả để làm bánh. Hỏi mẹ còn lại bao nhiêu quả trứng?",
+    "answer": "19 - 2 = 17"
+  },
+  {
+    "question": "Lan có 12 cái kẹo. Lan ăn mất 9 cái kẹo. Hỏi Lan còn lại bao nhiêu cái kẹo?",
+    "answer": "12 - 9 = 3"
+  },
+  {
+    "question": "So sánh 9 và 6 bằng dấu >, <, =",
+    "answer": "9 > 6"
+  },
+  {
+    "question": "Trên cây có 10 con chim. Có 1 con chim bay đi. Hỏi trên cây còn lại bao nhiêu con chim?",
+    "answer": "10 - 1 = 9"
+  },
+  {
+    "question": "So sánh 5 và 15 bằng dấu >, <, =",
+    "answer": "5 < 15"
+  },
+  {
+    "question": "So sánh 11 và 12 bằng dấu >, <, =",
+    "answer": "11 < 12"
+  },
+  {
+    "question": "Tính 29 - 7 = ?",
+    "answer": "29 - 7 = 22"
+  },
+  {
+    "question": "Đếm số quả táo trong hình và viết kết quả",
+    "answer": "Có 14 quả táo"
+  },
+  {
+    "question": "Đếm số con chim trong hình và viết kết quả",
+    "answer": "Có 12 con chim"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 10, 13, 16, 19, ...",
+    "answer": "Số tiếp theo là 22"
+  },
+  {
+    "question": "Tính 26 - 5 = ?",
+    "answer": "26 - 5 = 21"
+  },
+  {
+    "question": "Lan có 15 cái kẹo. Lan ăn mất 8 cái kẹo. Hỏi Lan còn lại bao nhiêu cái kẹo?",
+    "answer": "15 - 8 = 7"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 4, 6, ...",
+    "answer": "Số tiếp theo là 8"
+  },
+  {
+    "question": "Bình có 8 quyển sách. Nam có 8 quyển sách. Hỏi hai bạn có tất cả bao nhiêu quyển sách?",
+    "answer": "8 + 8 = 16"
+  },
+  {
+    "question": "Lớp 1A có 9 bạn nam và 4 bạn nữ. Hỏi lớp 1A có tất cả bao nhiêu học sinh?",
+    "answer": "9 + 4 = 13"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 9, 12, 15, 18, ...",
+    "answer": "Số tiếp theo là 21"
+  },
+  {
+    "question": "Tính 18 - 7 = ?",
+    "answer": "18 - 7 = 11"
+  },
+  {
+    "question": "Tính 2 + 17 = ?",
+    "answer": "2 + 17 = 19"
+  },
+  {
+    "question": "Tính 13 + 5 = ?",
+    "answer": "13 + 5 = 18"
+  },
+  {
+    "question": "Trên cây có 14 con chim. Có 10 con chim bay đi. Hỏi trên cây còn lại bao nhiêu con chim?",
+    "answer": "14 - 10 = 4"
+  },
+  {
+    "question": "Tính 25 - 8 = ?",
+    "answer": "25 - 8 = 17"
+  },
+  {
+    "question": "Trên cây có 14 con chim. Có 9 con chim bay đi. Hỏi trên cây còn lại bao nhiêu con chim?",
+    "answer": "14 - 9 = 5"
+  },
+  {
+    "question": "Tính 5 + 7 = ?",
+    "answer": "5 + 7 = 12"
+  },
+  {
+    "question": "Tính 19 - 7 = ?",
+    "answer": "19 - 7 = 12"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 3, 4, 5, ...",
+    "answer": "Số tiếp theo là 6"
+  },
+  {
+    "question": "Tính 2 + 20 = ?",
+    "answer": "2 + 20 = 22"
+  },
+  {
+    "question": "Lớp 1A có 2 bạn nam và 2 bạn nữ. Hỏi lớp 1A có tất cả bao nhiêu học sinh?",
+    "answer": "2 + 2 = 4"
+  },
+  {
+    "question": "Trên cây có 17 con chim. Có 4 con chim bay đi. Hỏi trên cây còn lại bao nhiêu con chim?",
+    "answer": "17 - 4 = 13"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 4, 7, ...",
+    "answer": "Số tiếp theo là 10"
+  },
+  {
+    "question": "So sánh 6 và 19 bằng dấu >, <, =",
+    "answer": "6 < 19"
+  },
+  {
+    "question": "Tính 25 - 6 = ?",
+    "answer": "25 - 6 = 19"
+  },
+  {
+    "question": "Tính 21 - 9 = ?",
+    "answer": "21 - 9 = 12"
+  },
+  {
+    "question": "Đếm số quả táo trong hình và viết kết quả",
+    "answer": "Có 14 quả táo"
+  },
+  {
+    "question": "Tính 19 - 9 = ?",
+    "answer": "19 - 9 = 10"
+  },
+  {
+    "question": "Tính 28 - 2 = ?",
+    "answer": "28 - 2 = 26"
+  },
+  {
+    "question": "Bình có 3 quyển sách. Nam có 8 quyển sách. Hỏi hai bạn có tất cả bao nhiêu quyển sách?",
+    "answer": "3 + 8 = 11"
+  },
+  {
+    "question": "Tính 29 - 8 = ?",
+    "answer": "29 - 8 = 21"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 6, 9, ...",
+    "answer": "Số tiếp theo là 12"
+  },
+  {
+    "question": "Mẹ có 18 quả trứng. Mẹ đã dùng 7 quả để làm bánh. Hỏi mẹ còn lại bao nhiêu quả trứng?",
+    "answer": "18 - 7 = 11"
+  },
+  {
+    "question": "Tính 2 + 10 = ?",
+    "answer": "2 + 10 = 12"
+  },
+  {
+    "question": "Lớp 1A có 8 bạn nam và 10 bạn nữ. Hỏi lớp 1A có tất cả bao nhiêu học sinh?",
+    "answer": "8 + 10 = 18"
+  },
+  {
+    "question": "Lan có 9 cái kẹo. Lan ăn mất 6 cái kẹo. Hỏi Lan còn lại bao nhiêu cái kẹo?",
+    "answer": "9 - 6 = 3"
+  },
+  {
+    "question": "Tính 15 + 6 = ?",
+    "answer": "15 + 6 = 21"
+  },
+  {
+    "question": "Đếm số con mèo trong hình và viết kết quả",
+    "answer": "Có 8 con mèo"
+  },
+  {
+    "question": "Bố mua 2 quả cam và 1 quả quýt. Hỏi bố mua tất cả bao nhiêu quả?",
+    "answer": "2 + 1 = 3"
+  },
+  {
+    "question": "Tính 16 - 2 = ?",
+    "answer": "16 - 2 = 14"
+  },
+  {
+    "question": "Lan có 19 cái kẹo. Lan ăn mất 5 cái kẹo. Hỏi Lan còn lại bao nhiêu cái kẹo?",
+    "answer": "19 - 5 = 14"
+  },
+  {
+    "question": "Tính 18 + 9 = ?",
+    "answer": "18 + 9 = 27"
+  },
+  {
+    "question": "Tính 20 + 17 = ?",
+    "answer": "20 + 17 = 37"
+  },
+  {
+    "question": "So sánh 14 và 6 bằng dấu >, <, =",
+    "answer": "14 > 6"
+  },
+  {
+    "question": "Tính 21 - 1 = ?",
+    "answer": "21 - 1 = 20"
+  },
+  {
+    "question": "Tính 16 - 16 = ?",
+    "answer": "16 - 16 = 0"
+  },
+  {
+    "question": "Tính 5 + 5 = ?",
+    "answer": "5 + 5 = 10"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 7, 8, 9, ...",
+    "answer": "Số tiếp theo là 10"
+  },
+  {
+    "question": "Mẹ có 13 quả trứng. Mẹ đã dùng 3 quả để làm bánh. Hỏi mẹ còn lại bao nhiêu quả trứng?",
+    "answer": "13 - 3 = 10"
+  },
+  {
+    "question": "Tính 24 - 22 = ?",
+    "answer": "24 - 22 = 2"
+  },
+  {
+    "question": "So sánh 12 và 9 bằng dấu >, <, =",
+    "answer": "12 > 9"
+  },
+  {
+    "question": "Tính 22 - 13 = ?",
+    "answer": "22 - 13 = 9"
+  },
+  {
+    "question": "Tính 18 - 1 = ?",
+    "answer": "18 - 1 = 17"
+  },
+  {
+    "question": "So sánh 11 và 20 bằng dấu >, <, =",
+    "answer": "11 < 20"
+  },
+  {
+    "question": "Tính 21 - 10 = ?",
+    "answer": "21 - 10 = 11"
+  },
+  {
+    "question": "Tính 15 - 8 = ?",
+    "answer": "15 - 8 = 7"
+  },
+  {
+    "question": "So sánh 4 và 7 bằng dấu >, <, =",
+    "answer": "4 < 7"
+  },
+  {
+    "question": "Tính 13 - 13 = ?",
+    "answer": "13 - 13 = 0"
+  },
+  {
+    "question": "Tính 22 - 21 = ?",
+    "answer": "22 - 21 = 1"
+  },
+  {
+    "question": "Đếm số cái kẹo trong hình và viết kết quả",
+    "answer": "Có 12 cái kẹo"
+  },
+  {
+    "question": "Mẹ có 14 quả trứng. Mẹ đã dùng 9 quả để làm bánh. Hỏi mẹ còn lại bao nhiêu quả trứng?",
+    "answer": "14 - 9 = 5"
+  },
+  {
+    "question": "Đếm số quả táo trong hình và viết kết quả",
+    "answer": "Có 8 quả táo"
+  },
+  {
+    "question": "Tính 25 - 17 = ?",
+    "answer": "25 - 17 = 8"
+  },
+  {
+    "question": "Lớp 1A có 3 bạn nam và 3 bạn nữ. Hỏi lớp 1A có tất cả bao nhiêu học sinh?",
+    "answer": "3 + 3 = 6"
+  },
+  {
+    "question": "Tính 10 + 13 = ?",
+    "answer": "10 + 13 = 23"
+  },
+  {
+    "question": "Tính 17 - 11 = ?",
+    "answer": "17 - 11 = 6"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 2, 4, 6, ...",
+    "answer": "Số tiếp theo là 8"
+  },
+  {
+    "question": "So sánh 4 và 12 bằng dấu >, <, =",
+    "answer": "4 < 12"
+  },
+  {
+    "question": "Tính 20 + 11 = ?",
+    "answer": "20 + 11 = 31"
+  },
+  {
+    "question": "So sánh 10 và 20 bằng dấu >, <, =",
+    "answer": "10 < 20"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 10, 13, 16, ...",
+    "answer": "Số tiếp theo là 19"
+  },
+  {
+    "question": "Tính 12 + 17 = ?",
+    "answer": "12 + 17 = 29"
+  },
+  {
+    "question": "Tính 16 + 5 = ?",
+    "answer": "16 + 5 = 21"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 3, 5, 7, 9, ...",
+    "answer": "Số tiếp theo là 11"
+  },
+  {
+    "question": "Tính 29 - 28 = ?",
+    "answer": "29 - 28 = 1"
+  },
+  {
+    "question": "Bình có 9 quyển sách. Nam có 7 quyển sách. Hỏi hai bạn có tất cả bao nhiêu quyển sách?",
+    "answer": "9 + 7 = 16"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 7, 8, ...",
+    "answer": "Số tiếp theo là 9"
+  },
+  {
+    "question": "Tính 14 - 11 = ?",
+    "answer": "14 - 11 = 3"
+  },
+  {
+    "question": "Tính 19 + 1 = ?",
+    "answer": "19 + 1 = 20"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 2, 3, ...",
+    "answer": "Số tiếp theo là 4"
+  },
+  {
+    "question": "Tính 27 - 16 = ?",
+    "answer": "27 - 16 = 11"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 4, 6, 8, 10, ...",
+    "answer": "Số tiếp theo là 12"
+  },
+  {
+    "question": "Tính 5 + 19 = ?",
+    "answer": "5 + 19 = 24"
+  },
+  {
+    "question": "Tính 23 - 11 = ?",
+    "answer": "23 - 11 = 12"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 10, 12, 14, ...",
+    "answer": "Số tiếp theo là 16"
+  },
+  {
+    "question": "Tính 13 + 10 = ?",
+    "answer": "13 + 10 = 23"
+  },
+  {
+    "question": "So sánh 9 và 6 bằng dấu >, <, =",
+    "answer": "9 > 6"
+  },
+  {
+    "question": "Trên cây có 9 con chim. Có 4 con chim bay đi. Hỏi trên cây còn lại bao nhiêu con chim?",
+    "answer": "9 - 4 = 5"
+  },
+  {
+    "question": "Trên cây có 15 con chim. Có 2 con chim bay đi. Hỏi trên cây còn lại bao nhiêu con chim?",
+    "answer": "15 - 2 = 13"
+  },
+  {
+    "question": "So sánh 16 và 12 bằng dấu >, <, =",
+    "answer": "16 > 12"
+  },
+  {
+    "question": "Tính 15 - 14 = ?",
+    "answer": "15 - 14 = 1"
+  },
+  {
+    "question": "Lớp 1A có 4 bạn nam và 7 bạn nữ. Hỏi lớp 1A có tất cả bao nhiêu học sinh?",
+    "answer": "4 + 7 = 11"
+  },
+  {
+    "question": "Tính 21 - 1 = ?",
+    "answer": "21 - 1 = 20"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 7, 8, ...",
+    "answer": "Số tiếp theo là 9"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 1, 3, ...",
+    "answer": "Số tiếp theo là 5"
+  },
+  {
     "question": "Tính 23 - 20 = ?",
     "answer": "23 - 20 = 3"
   },
   {
-    "question": "So sánh 1 và 17 bằng dấu >, <, =",
-    "answer": "1 < 17"
+    "question": "Tính 19 + 7 = ?",
+    "answer": "19 + 7 = 26"
   },
   {
-    "question": "Tính 19 + 12 = ?",
-    "answer": "19 + 12 = 31"
+    "question": "Tính 28 - 19 = ?",
+    "answer": "28 - 19 = 9"
   },
   {
-    "question": "Trên cây có 19 con chim. Có 5 con chim bay đi. Hỏi trên cây còn lại bao nhiêu con chim?",
-    "answer": "19 - 5 = 14"
+    "question": "Bố mua 9 quả cam và 9 quả quýt. Hỏi bố mua tất cả bao nhiêu quả?",
+    "answer": "9 + 9 = 18"
+  },
+  {
+    "question": "Tính 19 + 16 = ?",
+    "answer": "19 + 16 = 35"
+  },
+  {
+    "question": "Tính 6 + 13 = ?",
+    "answer": "6 + 13 = 19"
+  },
+  {
+    "question": "Tính 27 - 19 = ?",
+    "answer": "27 - 19 = 8"
+  },
+  {
+    "question": "Đếm số quả táo trong hình và viết kết quả",
+    "answer": "Có 13 quả táo"
+  },
+  {
+    "question": "Tính 19 + 18 = ?",
+    "answer": "19 + 18 = 37"
+  },
+  {
+    "question": "Tính 19 + 18 = ?",
+    "answer": "19 + 18 = 37"
+  },
+  {
+    "question": "Tính 27 - 6 = ?",
+    "answer": "27 - 6 = 21"
+  },
+  {
+    "question": "So sánh 19 và 3 bằng dấu >, <, =",
+    "answer": "19 > 3"
+  },
+  {
+    "question": "Tính 29 - 12 = ?",
+    "answer": "29 - 12 = 17"
+  },
+  {
+    "question": "Tính 10 + 6 = ?",
+    "answer": "10 + 6 = 16"
+  },
+  {
+    "question": "Tính 14 + 12 = ?",
+    "answer": "14 + 12 = 26"
+  },
+  {
+    "question": "Tính 4 + 11 = ?",
+    "answer": "4 + 11 = 15"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 6, 9, ...",
+    "answer": "Số tiếp theo là 12"
+  },
+  {
+    "question": "Lan có 9 cái kẹo. Lan ăn mất 7 cái kẹo. Hỏi Lan còn lại bao nhiêu cái kẹo?",
+    "answer": "9 - 7 = 2"
+  },
+  {
+    "question": "Tính 19 - 12 = ?",
+    "answer": "19 - 12 = 7"
+  },
+  {
+    "question": "Trong vườn có 8 cây hoa hồng và 7 cây hoa cúc. Hỏi trong vườn có tất cả bao nhiêu cây hoa?",
+    "answer": "8 + 7 = 15"
+  },
+  {
+    "question": "Mẹ có 13 quả trứng. Mẹ đã dùng 9 quả để làm bánh. Hỏi mẹ còn lại bao nhiêu quả trứng?",
+    "answer": "13 - 9 = 4"
+  },
+  {
+    "question": "Tính 14 + 3 = ?",
+    "answer": "14 + 3 = 17"
+  },
+  {
+    "question": "So sánh 4 và 13 bằng dấu >, <, =",
+    "answer": "4 < 13"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 5, 6, 7, ...",
+    "answer": "Số tiếp theo là 8"
+  },
+  {
+    "question": "Tính 21 - 17 = ?",
+    "answer": "21 - 17 = 4"
+  },
+  {
+    "question": "Đếm số cái bút trong hình và viết kết quả",
+    "answer": "Có 14 cái bút"
+  },
+  {
+    "question": "Tính 11 + 10 = ?",
+    "answer": "11 + 10 = 21"
+  },
+  {
+    "question": "Tính 10 - 9 = ?",
+    "answer": "10 - 9 = 1"
+  },
+  {
+    "question": "Tính 28 - 14 = ?",
+    "answer": "28 - 14 = 14"
+  },
+  {
+    "question": "Lan có 8 cái kẹo. Lan ăn mất 2 cái kẹo. Hỏi Lan còn lại bao nhiêu cái kẹo?",
+    "answer": "8 - 2 = 6"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 9, 10, 11, ...",
+    "answer": "Số tiếp theo là 12"
+  },
+  {
+    "question": "Mẹ có 12 quả trứng. Mẹ đã dùng 5 quả để làm bánh. Hỏi mẹ còn lại bao nhiêu quả trứng?",
+    "answer": "12 - 5 = 7"
+  },
+  {
+    "question": "So sánh 10 và 13 bằng dấu >, <, =",
+    "answer": "10 < 13"
+  },
+  {
+    "question": "So sánh 18 và 16 bằng dấu >, <, =",
+    "answer": "18 > 16"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 4, 6, 8, 10, ...",
+    "answer": "Số tiếp theo là 12"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 8, 11, ...",
+    "answer": "Số tiếp theo là 14"
+  },
+  {
+    "question": "Tính 10 - 4 = ?",
+    "answer": "10 - 4 = 6"
+  },
+  {
+    "question": "Đếm số cái bút trong hình và viết kết quả",
+    "answer": "Có 12 cái bút"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 5, 6, 7, 8, ...",
+    "answer": "Số tiếp theo là 9"
+  },
+  {
+    "question": "Mẹ có 9 quả trứng. Mẹ đã dùng 5 quả để làm bánh. Hỏi mẹ còn lại bao nhiêu quả trứng?",
+    "answer": "9 - 5 = 4"
+  },
+  {
+    "question": "Tính 11 + 12 = ?",
+    "answer": "11 + 12 = 23"
+  },
+  {
+    "question": "Trong vườn có 4 cây hoa hồng và 10 cây hoa cúc. Hỏi trong vườn có tất cả bao nhiêu cây hoa?",
+    "answer": "4 + 10 = 14"
+  },
+  {
+    "question": "Tính 15 - 2 = ?",
+    "answer": "15 - 2 = 13"
+  },
+  {
+    "question": "Hải có 7 quả táo. Hải được mẹ cho thêm 1 quả táo. Hỏi Hải có tất cả bao nhiêu quả táo?",
+    "answer": "7 + 1 = 8"
+  },
+  {
+    "question": "Trong vườn có 8 cây hoa hồng và 3 cây hoa cúc. Hỏi trong vườn có tất cả bao nhiêu cây hoa?",
+    "answer": "8 + 3 = 11"
+  },
+  {
+    "question": "Tính 9 + 17 = ?",
+    "answer": "9 + 17 = 26"
+  },
+  {
+    "question": "Trong vườn có 3 cây hoa hồng và 4 cây hoa cúc. Hỏi trong vườn có tất cả bao nhiêu cây hoa?",
+    "answer": "3 + 4 = 7"
+  },
+  {
+    "question": "Đếm số quả táo trong hình và viết kết quả",
+    "answer": "Có 8 quả táo"
+  },
+  {
+    "question": "Lớp 1A có 2 bạn nam và 4 bạn nữ. Hỏi lớp 1A có tất cả bao nhiêu học sinh?",
+    "answer": "2 + 4 = 6"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 10, 12, ...",
+    "answer": "Số tiếp theo là 14"
+  },
+  {
+    "question": "Tính 18 - 6 = ?",
+    "answer": "18 - 6 = 12"
+  },
+  {
+    "question": "Tính 22 - 16 = ?",
+    "answer": "22 - 16 = 6"
+  },
+  {
+    "question": "So sánh 11 và 20 bằng dấu >, <, =",
+    "answer": "11 < 20"
+  },
+  {
+    "question": "Tính 14 + 2 = ?",
+    "answer": "14 + 2 = 16"
+  },
+  {
+    "question": "Đếm số cái bàn trong hình và viết kết quả",
+    "answer": "Có 7 cái bàn"
+  },
+  {
+    "question": "Lan có 19 cái kẹo. Lan ăn mất 18 cái kẹo. Hỏi Lan còn lại bao nhiêu cái kẹo?",
+    "answer": "19 - 18 = 1"
+  },
+  {
+    "question": "Đếm số quả táo trong hình và viết kết quả",
+    "answer": "Có 6 quả táo"
+  },
+  {
+    "question": "Tính 1 + 4 = ?",
+    "answer": "1 + 4 = 5"
+  },
+  {
+    "question": "Tính 6 + 16 = ?",
+    "answer": "6 + 16 = 22"
+  },
+  {
+    "question": "So sánh 4 và 10 bằng dấu >, <, =",
+    "answer": "4 < 10"
+  },
+  {
+    "question": "Tính 9 + 17 = ?",
+    "answer": "9 + 17 = 26"
+  },
+  {
+    "question": "Tính 6 + 18 = ?",
+    "answer": "6 + 18 = 24"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 2, 5, 8, 11, ...",
+    "answer": "Số tiếp theo là 14"
+  },
+  {
+    "question": "Trên cây có 11 con chim. Có 7 con chim bay đi. Hỏi trên cây còn lại bao nhiêu con chim?",
+    "answer": "11 - 7 = 4"
+  },
+  {
+    "question": "Trong vườn có 8 cây hoa hồng và 7 cây hoa cúc. Hỏi trong vườn có tất cả bao nhiêu cây hoa?",
+    "answer": "8 + 7 = 15"
+  },
+  {
+    "question": "Tính 28 - 18 = ?",
+    "answer": "28 - 18 = 10"
+  },
+  {
+    "question": "Tính 30 - 17 = ?",
+    "answer": "30 - 17 = 13"
+  },
+  {
+    "question": "Hải có 4 quả táo. Hải được mẹ cho thêm 5 quả táo. Hỏi Hải có tất cả bao nhiêu quả táo?",
+    "answer": "4 + 5 = 9"
+  },
+  {
+    "question": "Tính 16 - 8 = ?",
+    "answer": "16 - 8 = 8"
+  },
+  {
+    "question": "Tính 20 + 1 = ?",
+    "answer": "20 + 1 = 21"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 6, 7, 8, ...",
+    "answer": "Số tiếp theo là 9"
+  },
+  {
+    "question": "Tính 15 + 20 = ?",
+    "answer": "15 + 20 = 35"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 5, 7, 9, 11, ...",
+    "answer": "Số tiếp theo là 13"
+  },
+  {
+    "question": "Hải có 4 quả táo. Hải được mẹ cho thêm 2 quả táo. Hỏi Hải có tất cả bao nhiêu quả táo?",
+    "answer": "4 + 2 = 6"
+  },
+  {
+    "question": "Lan có 16 cái kẹo. Lan ăn mất 9 cái kẹo. Hỏi Lan còn lại bao nhiêu cái kẹo?",
+    "answer": "16 - 9 = 7"
+  },
+  {
+    "question": "Đếm số con chó trong hình và viết kết quả",
+    "answer": "Có 5 con chó"
+  },
+  {
+    "question": "Lan có 20 cái kẹo. Lan ăn mất 7 cái kẹo. Hỏi Lan còn lại bao nhiêu cái kẹo?",
+    "answer": "20 - 7 = 13"
+  },
+  {
+    "question": "Tính 19 + 19 = ?",
+    "answer": "19 + 19 = 38"
+  },
+  {
+    "question": "Tính 11 + 7 = ?",
+    "answer": "11 + 7 = 18"
+  },
+  {
+    "question": "So sánh 7 và 7 bằng dấu >, <, =",
+    "answer": "7 = 7"
+  },
+  {
+    "question": "Tính 17 + 8 = ?",
+    "answer": "17 + 8 = 25"
+  },
+  {
+    "question": "Mẹ có 16 quả trứng. Mẹ đã dùng 16 quả để làm bánh. Hỏi mẹ còn lại bao nhiêu quả trứng?",
+    "answer": "16 - 16 = 0"
+  },
+  {
+    "question": "So sánh 4 và 16 bằng dấu >, <, =",
+    "answer": "4 < 16"
+  },
+  {
+    "question": "Đếm số cái ghế trong hình và viết kết quả",
+    "answer": "Có 12 cái ghế"
+  },
+  {
+    "question": "Tính 16 - 11 = ?",
+    "answer": "16 - 11 = 5"
+  },
+  {
+    "question": "Tính 10 + 13 = ?",
+    "answer": "10 + 13 = 23"
+  },
+  {
+    "question": "Tính 26 - 15 = ?",
+    "answer": "26 - 15 = 11"
+  },
+  {
+    "question": "Tính 13 + 16 = ?",
+    "answer": "13 + 16 = 29"
+  },
+  {
+    "question": "Tính 11 + 4 = ?",
+    "answer": "11 + 4 = 15"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 7, 10, 13, 16, ...",
+    "answer": "Số tiếp theo là 19"
+  },
+  {
+    "question": "Tính 14 + 9 = ?",
+    "answer": "14 + 9 = 23"
+  },
+  {
+    "question": "Tính 10 + 8 = ?",
+    "answer": "10 + 8 = 18"
+  },
+  {
+    "question": "Trong vườn có 10 cây hoa hồng và 1 cây hoa cúc. Hỏi trong vườn có tất cả bao nhiêu cây hoa?",
+    "answer": "10 + 1 = 11"
+  },
+  {
+    "question": "So sánh 13 và 14 bằng dấu >, <, =",
+    "answer": "13 < 14"
+  },
+  {
+    "question": "So sánh 9 và 1 bằng dấu >, <, =",
+    "answer": "9 > 1"
+  },
+  {
+    "question": "Đếm số cái bút trong hình và viết kết quả",
+    "answer": "Có 11 cái bút"
+  },
+  {
+    "question": "Tính 6 + 1 = ?",
+    "answer": "6 + 1 = 7"
+  },
+  {
+    "question": "Tính 27 - 12 = ?",
+    "answer": "27 - 12 = 15"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 5, 7, 9, 11, ...",
+    "answer": "Số tiếp theo là 13"
+  },
+  {
+    "question": "Lan có 9 cái kẹo. Lan ăn mất 6 cái kẹo. Hỏi Lan còn lại bao nhiêu cái kẹo?",
+    "answer": "9 - 6 = 3"
+  },
+  {
+    "question": "Bố mua 10 quả cam và 9 quả quýt. Hỏi bố mua tất cả bao nhiêu quả?",
+    "answer": "10 + 9 = 19"
+  },
+  {
+    "question": "Đếm số con chó trong hình và viết kết quả",
+    "answer": "Có 9 con chó"
+  },
+  {
+    "question": "So sánh 16 và 17 bằng dấu >, <, =",
+    "answer": "16 < 17"
+  },
+  {
+    "question": "Đếm số quả cam trong hình và viết kết quả",
+    "answer": "Có 15 quả cam"
+  },
+  {
+    "question": "Mẹ có 20 quả trứng. Mẹ đã dùng 2 quả để làm bánh. Hỏi mẹ còn lại bao nhiêu quả trứng?",
+    "answer": "20 - 2 = 18"
+  },
+  {
+    "question": "Đếm số con chó trong hình và viết kết quả",
+    "answer": "Có 11 con chó"
+  },
+  {
+    "question": "Trên cây có 8 con chim. Có 2 con chim bay đi. Hỏi trên cây còn lại bao nhiêu con chim?",
+    "answer": "8 - 2 = 6"
+  },
+  {
+    "question": "Tính 17 - 11 = ?",
+    "answer": "17 - 11 = 6"
+  },
+  {
+    "question": "So sánh 16 và 19 bằng dấu >, <, =",
+    "answer": "16 < 19"
+  },
+  {
+    "question": "So sánh 19 và 12 bằng dấu >, <, =",
+    "answer": "19 > 12"
+  },
+  {
+    "question": "So sánh 3 và 11 bằng dấu >, <, =",
+    "answer": "3 < 11"
+  },
+  {
+    "question": "Tính 4 + 15 = ?",
+    "answer": "4 + 15 = 19"
+  },
+  {
+    "question": "Tính 20 - 5 = ?",
+    "answer": "20 - 5 = 15"
+  },
+  {
+    "question": "Đếm số cái bàn trong hình và viết kết quả",
+    "answer": "Có 14 cái bàn"
+  },
+  {
+    "question": "So sánh 1 và 14 bằng dấu >, <, =",
+    "answer": "1 < 14"
+  },
+  {
+    "question": "Tính 19 + 20 = ?",
+    "answer": "19 + 20 = 39"
+  },
+  {
+    "question": "So sánh 18 và 19 bằng dấu >, <, =",
+    "answer": "18 < 19"
+  },
+  {
+    "question": "Tính 17 - 17 = ?",
+    "answer": "17 - 17 = 0"
+  },
+  {
+    "question": "Trong vườn có 9 cây hoa hồng và 4 cây hoa cúc. Hỏi trong vườn có tất cả bao nhiêu cây hoa?",
+    "answer": "9 + 4 = 13"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 7, 8, 9, 10, ...",
+    "answer": "Số tiếp theo là 11"
+  },
+  {
+    "question": "Tính 13 + 15 = ?",
+    "answer": "13 + 15 = 28"
+  },
+  {
+    "question": "Lớp 1A có 4 bạn nam và 9 bạn nữ. Hỏi lớp 1A có tất cả bao nhiêu học sinh?",
+    "answer": "4 + 9 = 13"
+  },
+  {
+    "question": "So sánh 5 và 7 bằng dấu >, <, =",
+    "answer": "5 < 7"
+  },
+  {
+    "question": "Tính 14 - 13 = ?",
+    "answer": "14 - 13 = 1"
+  },
+  {
+    "question": "Lớp 1A có 10 bạn nam và 3 bạn nữ. Hỏi lớp 1A có tất cả bao nhiêu học sinh?",
+    "answer": "10 + 3 = 13"
+  },
+  {
+    "question": "Tính 19 + 16 = ?",
+    "answer": "19 + 16 = 35"
+  },
+  {
+    "question": "Tính 15 - 15 = ?",
+    "answer": "15 - 15 = 0"
+  },
+  {
+    "question": "So sánh 4 và 10 bằng dấu >, <, =",
+    "answer": "4 < 10"
+  },
+  {
+    "question": "Tính 17 - 8 = ?",
+    "answer": "17 - 8 = 9"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 9, 11, 13, 15, ...",
+    "answer": "Số tiếp theo là 17"
+  },
+  {
+    "question": "Lan có 10 cái kẹo. Lan ăn mất 2 cái kẹo. Hỏi Lan còn lại bao nhiêu cái kẹo?",
+    "answer": "10 - 2 = 8"
+  },
+  {
+    "question": "Đếm số quả táo trong hình và viết kết quả",
+    "answer": "Có 13 quả táo"
+  },
+  {
+    "question": "So sánh 7 và 14 bằng dấu >, <, =",
+    "answer": "7 < 14"
+  },
+  {
+    "question": "Trong vườn có 10 cây hoa hồng và 7 cây hoa cúc. Hỏi trong vườn có tất cả bao nhiêu cây hoa?",
+    "answer": "10 + 7 = 17"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 5, 7, 9, 11, ...",
+    "answer": "Số tiếp theo là 13"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 6, 8, 10, 12, ...",
+    "answer": "Số tiếp theo là 14"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 5, 7, ...",
+    "answer": "Số tiếp theo là 9"
+  },
+  {
+    "question": "Tính 12 - 8 = ?",
+    "answer": "12 - 8 = 4"
+  },
+  {
+    "question": "Bình có 4 quyển sách. Nam có 1 quyển sách. Hỏi hai bạn có tất cả bao nhiêu quyển sách?",
+    "answer": "4 + 1 = 5"
+  },
+  {
+    "question": "So sánh 3 và 2 bằng dấu >, <, =",
+    "answer": "3 > 2"
+  },
+  {
+    "question": "Tính 18 - 17 = ?",
+    "answer": "18 - 17 = 1"
+  },
+  {
+    "question": "Tính 2 + 4 = ?",
+    "answer": "2 + 4 = 6"
+  },
+  {
+    "question": "Tính 4 + 20 = ?",
+    "answer": "4 + 20 = 24"
+  },
+  {
+    "question": "Đếm số quả cam trong hình và viết kết quả",
+    "answer": "Có 6 quả cam"
+  },
+  {
+    "question": "Trong vườn có 10 cây hoa hồng và 3 cây hoa cúc. Hỏi trong vườn có tất cả bao nhiêu cây hoa?",
+    "answer": "10 + 3 = 13"
+  },
+  {
+    "question": "Mẹ có 8 quả trứng. Mẹ đã dùng 8 quả để làm bánh. Hỏi mẹ còn lại bao nhiêu quả trứng?",
+    "answer": "8 - 8 = 0"
+  },
+  {
+    "question": "Tính 16 + 20 = ?",
+    "answer": "16 + 20 = 36"
+  },
+  {
+    "question": "So sánh 20 và 4 bằng dấu >, <, =",
+    "answer": "20 > 4"
+  },
+  {
+    "question": "So sánh 6 và 1 bằng dấu >, <, =",
+    "answer": "6 > 1"
+  },
+  {
+    "question": "Tính 12 + 14 = ?",
+    "answer": "12 + 14 = 26"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 1, 2, ...",
+    "answer": "Số tiếp theo là 3"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 2, 3, 4, ...",
+    "answer": "Số tiếp theo là 5"
+  },
+  {
+    "question": "Lớp 1A có 2 bạn nam và 5 bạn nữ. Hỏi lớp 1A có tất cả bao nhiêu học sinh?",
+    "answer": "2 + 5 = 7"
+  },
+  {
+    "question": "So sánh 2 và 4 bằng dấu >, <, =",
+    "answer": "2 < 4"
+  },
+  {
+    "question": "Bình có 10 quyển sách. Nam có 1 quyển sách. Hỏi hai bạn có tất cả bao nhiêu quyển sách?",
+    "answer": "10 + 1 = 11"
+  },
+  {
+    "question": "Tính 12 - 8 = ?",
+    "answer": "12 - 8 = 4"
+  },
+  {
+    "question": "So sánh 14 và 14 bằng dấu >, <, =",
+    "answer": "14 = 14"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 4, 6, 8, 10, ...",
+    "answer": "Số tiếp theo là 12"
+  },
+  {
+    "question": "Mẹ có 19 quả trứng. Mẹ đã dùng 2 quả để làm bánh. Hỏi mẹ còn lại bao nhiêu quả trứng?",
+    "answer": "19 - 2 = 17"
+  },
+  {
+    "question": "Tính 19 - 9 = ?",
+    "answer": "19 - 9 = 10"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 3, 6, ...",
+    "answer": "Số tiếp theo là 9"
+  },
+  {
+    "question": "Lan có 18 cái kẹo. Lan ăn mất 8 cái kẹo. Hỏi Lan còn lại bao nhiêu cái kẹo?",
+    "answer": "18 - 8 = 10"
+  },
+  {
+    "question": "Mẹ có 17 quả trứng. Mẹ đã dùng 10 quả để làm bánh. Hỏi mẹ còn lại bao nhiêu quả trứng?",
+    "answer": "17 - 10 = 7"
+  },
+  {
+    "question": "So sánh 2 và 14 bằng dấu >, <, =",
+    "answer": "2 < 14"
+  },
+  {
+    "question": "Đếm số cái bút trong hình và viết kết quả",
+    "answer": "Có 10 cái bút"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 6, 8, ...",
+    "answer": "Số tiếp theo là 10"
+  },
+  {
+    "question": "So sánh 7 và 4 bằng dấu >, <, =",
+    "answer": "7 > 4"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 6, 8, ...",
+    "answer": "Số tiếp theo là 10"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 10, 13, 16, 19, ...",
+    "answer": "Số tiếp theo là 22"
+  },
+  {
+    "question": "Tính 14 + 14 = ?",
+    "answer": "14 + 14 = 28"
+  },
+  {
+    "question": "So sánh 6 và 11 bằng dấu >, <, =",
+    "answer": "6 < 11"
+  },
+  {
+    "question": "Tính 20 + 16 = ?",
+    "answer": "20 + 16 = 36"
+  },
+  {
+    "question": "Tính 22 - 20 = ?",
+    "answer": "22 - 20 = 2"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 5, 6, 7, ...",
+    "answer": "Số tiếp theo là 8"
+  },
+  {
+    "question": "Bố mua 8 quả cam và 9 quả quýt. Hỏi bố mua tất cả bao nhiêu quả?",
+    "answer": "8 + 9 = 17"
+  },
+  {
+    "question": "Mẹ có 15 quả trứng. Mẹ đã dùng 5 quả để làm bánh. Hỏi mẹ còn lại bao nhiêu quả trứng?",
+    "answer": "15 - 5 = 10"
+  },
+  {
+    "question": "Tính 22 - 17 = ?",
+    "answer": "22 - 17 = 5"
+  },
+  {
+    "question": "Trong vườn có 10 cây hoa hồng và 4 cây hoa cúc. Hỏi trong vườn có tất cả bao nhiêu cây hoa?",
+    "answer": "10 + 4 = 14"
+  },
+  {
+    "question": "Tính 27 - 16 = ?",
+    "answer": "27 - 16 = 11"
+  },
+  {
+    "question": "So sánh 14 và 10 bằng dấu >, <, =",
+    "answer": "14 > 10"
+  },
+  {
+    "question": "Tính 20 + 6 = ?",
+    "answer": "20 + 6 = 26"
+  },
+  {
+    "question": "Tính 20 + 9 = ?",
+    "answer": "20 + 9 = 29"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 10, 12, 14, 16, ...",
+    "answer": "Số tiếp theo là 18"
+  },
+  {
+    "question": "Trong vườn có 6 cây hoa hồng và 1 cây hoa cúc. Hỏi trong vườn có tất cả bao nhiêu cây hoa?",
+    "answer": "6 + 1 = 7"
+  },
+  {
+    "question": "Tính 21 - 4 = ?",
+    "answer": "21 - 4 = 17"
+  },
+  {
+    "question": "Tính 16 + 4 = ?",
+    "answer": "16 + 4 = 20"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 6, 8, 10, ...",
+    "answer": "Số tiếp theo là 12"
+  },
+  {
+    "question": "So sánh 4 và 4 bằng dấu >, <, =",
+    "answer": "4 = 4"
+  },
+  {
+    "question": "Bình có 8 quyển sách. Nam có 4 quyển sách. Hỏi hai bạn có tất cả bao nhiêu quyển sách?",
+    "answer": "8 + 4 = 12"
+  },
+  {
+    "question": "Tính 23 - 3 = ?",
+    "answer": "23 - 3 = 20"
+  },
+  {
+    "question": "Tính 4 + 10 = ?",
+    "answer": "4 + 10 = 14"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 2, 4, 6, ...",
+    "answer": "Số tiếp theo là 8"
+  },
+  {
+    "question": "So sánh 11 và 1 bằng dấu >, <, =",
+    "answer": "11 > 1"
+  },
+  {
+    "question": "So sánh 11 và 5 bằng dấu >, <, =",
+    "answer": "11 > 5"
+  },
+  {
+    "question": "Tính 20 + 5 = ?",
+    "answer": "20 + 5 = 25"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 6, 7, 8, ...",
+    "answer": "Số tiếp theo là 9"
+  },
+  {
+    "question": "Tính 17 + 6 = ?",
+    "answer": "17 + 6 = 23"
+  },
+  {
+    "question": "Hải có 8 quả táo. Hải được mẹ cho thêm 8 quả táo. Hỏi Hải có tất cả bao nhiêu quả táo?",
+    "answer": "8 + 8 = 16"
+  },
+  {
+    "question": "So sánh 8 và 5 bằng dấu >, <, =",
+    "answer": "8 > 5"
+  },
+  {
+    "question": "Đếm số quyển sách trong hình và viết kết quả",
+    "answer": "Có 13 quyển sách"
+  },
+  {
+    "question": "So sánh 16 và 19 bằng dấu >, <, =",
+    "answer": "16 < 19"
+  },
+  {
+    "question": "Bố mua 2 quả cam và 5 quả quýt. Hỏi bố mua tất cả bao nhiêu quả?",
+    "answer": "2 + 5 = 7"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 7, 8, 9, 10, ...",
+    "answer": "Số tiếp theo là 11"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 5, 7, ...",
+    "answer": "Số tiếp theo là 9"
+  },
+  {
+    "question": "Đếm số cái kẹo trong hình và viết kết quả",
+    "answer": "Có 11 cái kẹo"
+  },
+  {
+    "question": "Lan có 20 cái kẹo. Lan ăn mất 11 cái kẹo. Hỏi Lan còn lại bao nhiêu cái kẹo?",
+    "answer": "20 - 11 = 9"
+  },
+  {
+    "question": "Đếm số cái bút trong hình và viết kết quả",
+    "answer": "Có 6 cái bút"
+  },
+  {
+    "question": "Tính 20 - 4 = ?",
+    "answer": "20 - 4 = 16"
+  },
+  {
+    "question": "So sánh 17 và 16 bằng dấu >, <, =",
+    "answer": "17 > 16"
+  },
+  {
+    "question": "Tính 23 - 22 = ?",
+    "answer": "23 - 22 = 1"
+  },
+  {
+    "question": "Tính 10 - 10 = ?",
+    "answer": "10 - 10 = 0"
+  },
+  {
+    "question": "Tính 12 - 4 = ?",
+    "answer": "12 - 4 = 8"
+  },
+  {
+    "question": "So sánh 15 và 10 bằng dấu >, <, =",
+    "answer": "15 > 10"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 10, 11, 12, ...",
+    "answer": "Số tiếp theo là 13"
+  },
+  {
+    "question": "Tính 28 - 21 = ?",
+    "answer": "28 - 21 = 7"
+  },
+  {
+    "question": "So sánh 5 và 3 bằng dấu >, <, =",
+    "answer": "5 > 3"
+  },
+  {
+    "question": "Tính 11 + 17 = ?",
+    "answer": "11 + 17 = 28"
+  },
+  {
+    "question": "So sánh 15 và 11 bằng dấu >, <, =",
+    "answer": "15 > 11"
+  },
+  {
+    "question": "Tính 20 + 4 = ?",
+    "answer": "20 + 4 = 24"
+  },
+  {
+    "question": "Đếm số cái bàn trong hình và viết kết quả",
+    "answer": "Có 6 cái bàn"
+  },
+  {
+    "question": "Bình có 2 quyển sách. Nam có 6 quyển sách. Hỏi hai bạn có tất cả bao nhiêu quyển sách?",
+    "answer": "2 + 6 = 8"
+  },
+  {
+    "question": "Tính 20 - 2 = ?",
+    "answer": "20 - 2 = 18"
+  },
+  {
+    "question": "Đếm số cái ghế trong hình và viết kết quả",
+    "answer": "Có 9 cái ghế"
+  },
+  {
+    "question": "Tính 7 + 10 = ?",
+    "answer": "7 + 10 = 17"
+  },
+  {
+    "question": "Đếm số cái ghế trong hình và viết kết quả",
+    "answer": "Có 15 cái ghế"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 6, 7, 8, ...",
+    "answer": "Số tiếp theo là 9"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 9, 11, 13, ...",
+    "answer": "Số tiếp theo là 15"
+  },
+  {
+    "question": "Trong vườn có 10 cây hoa hồng và 2 cây hoa cúc. Hỏi trong vườn có tất cả bao nhiêu cây hoa?",
+    "answer": "10 + 2 = 12"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 7, 8, 9, ...",
+    "answer": "Số tiếp theo là 10"
+  },
+  {
+    "question": "Bố mua 3 quả cam và 10 quả quýt. Hỏi bố mua tất cả bao nhiêu quả?",
+    "answer": "3 + 10 = 13"
+  },
+  {
+    "question": "Tính 12 - 6 = ?",
+    "answer": "12 - 6 = 6"
+  },
+  {
+    "question": "Tính 23 - 4 = ?",
+    "answer": "23 - 4 = 19"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 3, 6, 9, 12, ...",
+    "answer": "Số tiếp theo là 15"
+  },
+  {
+    "question": "Tính 5 + 11 = ?",
+    "answer": "5 + 11 = 16"
+  },
+  {
+    "question": "Đếm số con mèo trong hình và viết kết quả",
+    "answer": "Có 5 con mèo"
+  },
+  {
+    "question": "Tính 1 + 11 = ?",
+    "answer": "1 + 11 = 12"
+  },
+  {
+    "question": "So sánh 16 và 18 bằng dấu >, <, =",
+    "answer": "16 < 18"
+  },
+  {
+    "question": "Tính 26 - 19 = ?",
+    "answer": "26 - 19 = 7"
+  },
+  {
+    "question": "So sánh 12 và 3 bằng dấu >, <, =",
+    "answer": "12 > 3"
+  },
+  {
+    "question": "Tính 12 - 7 = ?",
+    "answer": "12 - 7 = 5"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 1, 2, ...",
+    "answer": "Số tiếp theo là 3"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 10, 12, ...",
+    "answer": "Số tiếp theo là 14"
+  },
+  {
+    "question": "So sánh 8 và 20 bằng dấu >, <, =",
+    "answer": "8 < 20"
+  },
+  {
+    "question": "Đếm số con chó trong hình và viết kết quả",
+    "answer": "Có 8 con chó"
+  },
+  {
+    "question": "Tính 22 - 17 = ?",
+    "answer": "22 - 17 = 5"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 4, 7, 10, 13, ...",
+    "answer": "Số tiếp theo là 16"
+  },
+  {
+    "question": "Đếm số cái bút trong hình và viết kết quả",
+    "answer": "Có 13 cái bút"
+  },
+  {
+    "question": "So sánh 16 và 20 bằng dấu >, <, =",
+    "answer": "16 < 20"
+  },
+  {
+    "question": "So sánh 9 và 11 bằng dấu >, <, =",
+    "answer": "9 < 11"
+  },
+  {
+    "question": "Đếm số cái kẹo trong hình và viết kết quả",
+    "answer": "Có 10 cái kẹo"
+  },
+  {
+    "question": "Trên cây có 8 con chim. Có 4 con chim bay đi. Hỏi trên cây còn lại bao nhiêu con chim?",
+    "answer": "8 - 4 = 4"
+  },
+  {
+    "question": "Bình có 8 quyển sách. Nam có 5 quyển sách. Hỏi hai bạn có tất cả bao nhiêu quyển sách?",
+    "answer": "8 + 5 = 13"
+  },
+  {
+    "question": "Tính 9 + 19 = ?",
+    "answer": "9 + 19 = 28"
+  },
+  {
+    "question": "Tính 13 - 1 = ?",
+    "answer": "13 - 1 = 12"
+  },
+  {
+    "question": "Mẹ có 19 quả trứng. Mẹ đã dùng 16 quả để làm bánh. Hỏi mẹ còn lại bao nhiêu quả trứng?",
+    "answer": "19 - 16 = 3"
+  },
+  {
+    "question": "Hải có 8 quả táo. Hải được mẹ cho thêm 3 quả táo. Hỏi Hải có tất cả bao nhiêu quả táo?",
+    "answer": "8 + 3 = 11"
+  },
+  {
+    "question": "Tính 26 - 21 = ?",
+    "answer": "26 - 21 = 5"
+  },
+  {
+    "question": "So sánh 6 và 3 bằng dấu >, <, =",
+    "answer": "6 > 3"
+  },
+  {
+    "question": "Trong vườn có 6 cây hoa hồng và 6 cây hoa cúc. Hỏi trong vườn có tất cả bao nhiêu cây hoa?",
+    "answer": "6 + 6 = 12"
+  },
+  {
+    "question": "Tính 9 + 4 = ?",
+    "answer": "9 + 4 = 13"
+  },
+  {
+    "question": "So sánh 17 và 4 bằng dấu >, <, =",
+    "answer": "17 > 4"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 7, 9, ...",
+    "answer": "Số tiếp theo là 11"
+  },
+  {
+    "question": "Tính 19 + 7 = ?",
+    "answer": "19 + 7 = 26"
+  },
+  {
+    "question": "Đếm số quả táo trong hình và viết kết quả",
+    "answer": "Có 8 quả táo"
+  },
+  {
+    "question": "So sánh 2 và 12 bằng dấu >, <, =",
+    "answer": "2 < 12"
+  },
+  {
+    "question": "So sánh 4 và 18 bằng dấu >, <, =",
+    "answer": "4 < 18"
+  },
+  {
+    "question": "Đếm số con chim trong hình và viết kết quả",
+    "answer": "Có 7 con chim"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 4, 6, 8, ...",
+    "answer": "Số tiếp theo là 10"
+  },
+  {
+    "question": "Mẹ có 13 quả trứng. Mẹ đã dùng 7 quả để làm bánh. Hỏi mẹ còn lại bao nhiêu quả trứng?",
+    "answer": "13 - 7 = 6"
+  },
+  {
+    "question": "Tính 25 - 3 = ?",
+    "answer": "25 - 3 = 22"
+  },
+  {
+    "question": "Tính 3 + 17 = ?",
+    "answer": "3 + 17 = 20"
+  },
+  {
+    "question": "Đếm số con chó trong hình và viết kết quả",
+    "answer": "Có 5 con chó"
+  },
+  {
+    "question": "Mẹ có 15 quả trứng. Mẹ đã dùng 4 quả để làm bánh. Hỏi mẹ còn lại bao nhiêu quả trứng?",
+    "answer": "15 - 4 = 11"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 5, 6, ...",
+    "answer": "Số tiếp theo là 7"
+  },
+  {
+    "question": "Tính 15 - 8 = ?",
+    "answer": "15 - 8 = 7"
+  },
+  {
+    "question": "Lớp 1A có 7 bạn nam và 1 bạn nữ. Hỏi lớp 1A có tất cả bao nhiêu học sinh?",
+    "answer": "7 + 1 = 8"
+  },
+  {
+    "question": "Đếm số cái ghế trong hình và viết kết quả",
+    "answer": "Có 13 cái ghế"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 5, 7, 9, ...",
+    "answer": "Số tiếp theo là 11"
+  },
+  {
+    "question": "So sánh 9 và 8 bằng dấu >, <, =",
+    "answer": "9 > 8"
+  },
+  {
+    "question": "Lớp 1A có 5 bạn nam và 2 bạn nữ. Hỏi lớp 1A có tất cả bao nhiêu học sinh?",
+    "answer": "5 + 2 = 7"
+  },
+  {
+    "question": "Tính 23 - 8 = ?",
+    "answer": "23 - 8 = 15"
+  },
+  {
+    "question": "Mẹ có 6 quả trứng. Mẹ đã dùng 2 quả để làm bánh. Hỏi mẹ còn lại bao nhiêu quả trứng?",
+    "answer": "6 - 2 = 4"
+  },
+  {
+    "question": "Lan có 11 cái kẹo. Lan ăn mất 8 cái kẹo. Hỏi Lan còn lại bao nhiêu cái kẹo?",
+    "answer": "11 - 8 = 3"
+  },
+  {
+    "question": "Tính 18 - 14 = ?",
+    "answer": "18 - 14 = 4"
+  },
+  {
+    "question": "So sánh 2 và 6 bằng dấu >, <, =",
+    "answer": "2 < 6"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 1, 4, ...",
+    "answer": "Số tiếp theo là 7"
+  },
+  {
+    "question": "So sánh 17 và 13 bằng dấu >, <, =",
+    "answer": "17 > 13"
+  },
+  {
+    "question": "Tính 18 - 16 = ?",
+    "answer": "18 - 16 = 2"
+  },
+  {
+    "question": "Tính 17 - 1 = ?",
+    "answer": "17 - 1 = 16"
+  },
+  {
+    "question": "Đếm số quyển sách trong hình và viết kết quả",
+    "answer": "Có 15 quyển sách"
+  },
+  {
+    "question": "Tính 19 + 18 = ?",
+    "answer": "19 + 18 = 37"
+  },
+  {
+    "question": "So sánh 19 và 8 bằng dấu >, <, =",
+    "answer": "19 > 8"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 9, 11, ...",
+    "answer": "Số tiếp theo là 13"
+  },
+  {
+    "question": "Tính 25 - 7 = ?",
+    "answer": "25 - 7 = 18"
+  },
+  {
+    "question": "Tính 7 + 20 = ?",
+    "answer": "7 + 20 = 27"
+  },
+  {
+    "question": "Tính 5 + 5 = ?",
+    "answer": "5 + 5 = 10"
+  },
+  {
+    "question": "Mẹ có 6 quả trứng. Mẹ đã dùng 1 quả để làm bánh. Hỏi mẹ còn lại bao nhiêu quả trứng?",
+    "answer": "6 - 1 = 5"
+  },
+  {
+    "question": "Tính 29 - 22 = ?",
+    "answer": "29 - 22 = 7"
+  },
+  {
+    "question": "Tính 16 - 14 = ?",
+    "answer": "16 - 14 = 2"
+  },
+  {
+    "question": "So sánh 11 và 10 bằng dấu >, <, =",
+    "answer": "11 > 10"
+  },
+  {
+    "question": "Tính 14 - 14 = ?",
+    "answer": "14 - 14 = 0"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 1, 4, 7, 10, ...",
+    "answer": "Số tiếp theo là 13"
+  },
+  {
+    "question": "Tính 3 + 15 = ?",
+    "answer": "3 + 15 = 18"
+  },
+  {
+    "question": "Tính 17 + 16 = ?",
+    "answer": "17 + 16 = 33"
+  },
+  {
+    "question": "Tính 4 + 4 = ?",
+    "answer": "4 + 4 = 8"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 7, 9, 11, 13, ...",
+    "answer": "Số tiếp theo là 15"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 10, 11, 12, 13, ...",
+    "answer": "Số tiếp theo là 14"
+  },
+  {
+    "question": "Lan có 11 cái kẹo. Lan ăn mất 11 cái kẹo. Hỏi Lan còn lại bao nhiêu cái kẹo?",
+    "answer": "11 - 11 = 0"
+  },
+  {
+    "question": "Đếm số cái kẹo trong hình và viết kết quả",
+    "answer": "Có 13 cái kẹo"
+  },
+  {
+    "question": "Tính 28 - 24 = ?",
+    "answer": "28 - 24 = 4"
+  },
+  {
+    "question": "Bình có 8 quyển sách. Nam có 1 quyển sách. Hỏi hai bạn có tất cả bao nhiêu quyển sách?",
+    "answer": "8 + 1 = 9"
+  },
+  {
+    "question": "So sánh 9 và 3 bằng dấu >, <, =",
+    "answer": "9 > 3"
+  },
+  {
+    "question": "Tính 24 - 16 = ?",
+    "answer": "24 - 16 = 8"
+  },
+  {
+    "question": "Trên cây có 7 con chim. Có 2 con chim bay đi. Hỏi trên cây còn lại bao nhiêu con chim?",
+    "answer": "7 - 2 = 5"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 10, 12, ...",
+    "answer": "Số tiếp theo là 14"
+  },
+  {
+    "question": "Đếm số con chó trong hình và viết kết quả",
+    "answer": "Có 11 con chó"
+  },
+  {
+    "question": "Đếm số cái bút trong hình và viết kết quả",
+    "answer": "Có 11 cái bút"
+  },
+  {
+    "question": "So sánh 16 và 6 bằng dấu >, <, =",
+    "answer": "16 > 6"
+  },
+  {
+    "question": "Tính 30 - 7 = ?",
+    "answer": "30 - 7 = 23"
+  },
+  {
+    "question": "Đếm số cái ghế trong hình và viết kết quả",
+    "answer": "Có 6 cái ghế"
+  },
+  {
+    "question": "Tính 11 + 13 = ?",
+    "answer": "11 + 13 = 24"
+  },
+  {
+    "question": "Lan có 7 cái kẹo. Lan ăn mất 4 cái kẹo. Hỏi Lan còn lại bao nhiêu cái kẹo?",
+    "answer": "7 - 4 = 3"
+  },
+  {
+    "question": "So sánh 18 và 13 bằng dấu >, <, =",
+    "answer": "18 > 13"
+  },
+  {
+    "question": "Tính 14 + 10 = ?",
+    "answer": "14 + 10 = 24"
+  },
+  {
+    "question": "Tính 1 + 6 = ?",
+    "answer": "1 + 6 = 7"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 9, 12, ...",
+    "answer": "Số tiếp theo là 15"
+  },
+  {
+    "question": "Tính 13 + 16 = ?",
+    "answer": "13 + 16 = 29"
+  },
+  {
+    "question": "So sánh 15 và 11 bằng dấu >, <, =",
+    "answer": "15 > 11"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 1, 2, ...",
+    "answer": "Số tiếp theo là 3"
+  },
+  {
+    "question": "Lan có 17 cái kẹo. Lan ăn mất 13 cái kẹo. Hỏi Lan còn lại bao nhiêu cái kẹo?",
+    "answer": "17 - 13 = 4"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 10, 11, 12, ...",
+    "answer": "Số tiếp theo là 13"
+  },
+  {
+    "question": "Trong vườn có 4 cây hoa hồng và 6 cây hoa cúc. Hỏi trong vườn có tất cả bao nhiêu cây hoa?",
+    "answer": "4 + 6 = 10"
+  },
+  {
+    "question": "Bố mua 7 quả cam và 4 quả quýt. Hỏi bố mua tất cả bao nhiêu quả?",
+    "answer": "7 + 4 = 11"
+  },
+  {
+    "question": "So sánh 7 và 19 bằng dấu >, <, =",
+    "answer": "7 < 19"
+  },
+  {
+    "question": "Tính 13 - 8 = ?",
+    "answer": "13 - 8 = 5"
+  },
+  {
+    "question": "Tính 3 + 11 = ?",
+    "answer": "3 + 11 = 14"
+  },
+  {
+    "question": "So sánh 12 và 15 bằng dấu >, <, =",
+    "answer": "12 < 15"
+  },
+  {
+    "question": "Đếm số cái bàn trong hình và viết kết quả",
+    "answer": "Có 7 cái bàn"
+  },
+  {
+    "question": "Tính 17 + 11 = ?",
+    "answer": "17 + 11 = 28"
+  },
+  {
+    "question": "So sánh 15 và 1 bằng dấu >, <, =",
+    "answer": "15 > 1"
+  },
+  {
+    "question": "Tính 22 - 16 = ?",
+    "answer": "22 - 16 = 6"
+  },
+  {
+    "question": "Tính 11 - 7 = ?",
+    "answer": "11 - 7 = 4"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 4, 5, ...",
+    "answer": "Số tiếp theo là 6"
+  },
+  {
+    "question": "Đếm số con chim trong hình và viết kết quả",
+    "answer": "Có 7 con chim"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 6, 9, 12, 15, ...",
+    "answer": "Số tiếp theo là 18"
+  },
+  {
+    "question": "Đếm số con chó trong hình và viết kết quả",
+    "answer": "Có 6 con chó"
+  },
+  {
+    "question": "Tính 28 - 23 = ?",
+    "answer": "28 - 23 = 5"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 2, 5, 8, 11, ...",
+    "answer": "Số tiếp theo là 14"
+  },
+  {
+    "question": "Tính 29 - 3 = ?",
+    "answer": "29 - 3 = 26"
+  },
+  {
+    "question": "Đếm số con chim trong hình và viết kết quả",
+    "answer": "Có 10 con chim"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 4, 6, 8, ...",
+    "answer": "Số tiếp theo là 10"
+  },
+  {
+    "question": "Tính 10 - 4 = ?",
+    "answer": "10 - 4 = 6"
+  },
+  {
+    "question": "So sánh 15 và 9 bằng dấu >, <, =",
+    "answer": "15 > 9"
+  },
+  {
+    "question": "Tính 24 - 2 = ?",
+    "answer": "24 - 2 = 22"
+  },
+  {
+    "question": "Bố mua 5 quả cam và 8 quả quýt. Hỏi bố mua tất cả bao nhiêu quả?",
+    "answer": "5 + 8 = 13"
+  },
+  {
+    "question": "So sánh 4 và 6 bằng dấu >, <, =",
+    "answer": "4 < 6"
+  },
+  {
+    "question": "Bình có 7 quyển sách. Nam có 10 quyển sách. Hỏi hai bạn có tất cả bao nhiêu quyển sách?",
+    "answer": "7 + 10 = 17"
+  },
+  {
+    "question": "Trong vườn có 6 cây hoa hồng và 7 cây hoa cúc. Hỏi trong vườn có tất cả bao nhiêu cây hoa?",
+    "answer": "6 + 7 = 13"
+  },
+  {
+    "question": "Tính 18 + 7 = ?",
+    "answer": "18 + 7 = 25"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 8, 10, ...",
+    "answer": "Số tiếp theo là 12"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 9, 11, 13, ...",
+    "answer": "Số tiếp theo là 15"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 6, 8, 10, 12, ...",
+    "answer": "Số tiếp theo là 14"
+  },
+  {
+    "question": "Đếm số cái ghế trong hình và viết kết quả",
+    "answer": "Có 5 cái ghế"
+  },
+  {
+    "question": "Đếm số quyển sách trong hình và viết kết quả",
+    "answer": "Có 8 quyển sách"
+  },
+  {
+    "question": "Đếm số con chó trong hình và viết kết quả",
+    "answer": "Có 9 con chó"
+  },
+  {
+    "question": "Tính 13 + 14 = ?",
+    "answer": "13 + 14 = 27"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 9, 11, 13, ...",
+    "answer": "Số tiếp theo là 15"
+  },
+  {
+    "question": "Tính 5 + 3 = ?",
+    "answer": "5 + 3 = 8"
+  },
+  {
+    "question": "Tính 23 - 1 = ?",
+    "answer": "23 - 1 = 22"
+  },
+  {
+    "question": "Tính 20 - 1 = ?",
+    "answer": "20 - 1 = 19"
+  },
+  {
+    "question": "Tính 30 - 25 = ?",
+    "answer": "30 - 25 = 5"
+  },
+  {
+    "question": "Tính 7 + 13 = ?",
+    "answer": "7 + 13 = 20"
+  },
+  {
+    "question": "Tính 18 - 5 = ?",
+    "answer": "18 - 5 = 13"
+  },
+  {
+    "question": "Tính 26 - 26 = ?",
+    "answer": "26 - 26 = 0"
+  },
+  {
+    "question": "So sánh 18 và 17 bằng dấu >, <, =",
+    "answer": "18 > 17"
+  },
+  {
+    "question": "Tính 11 + 5 = ?",
+    "answer": "11 + 5 = 16"
+  },
+  {
+    "question": "So sánh 3 và 8 bằng dấu >, <, =",
+    "answer": "3 < 8"
+  },
+  {
+    "question": "Bình có 9 quyển sách. Nam có 1 quyển sách. Hỏi hai bạn có tất cả bao nhiêu quyển sách?",
+    "answer": "9 + 1 = 10"
+  },
+  {
+    "question": "Tính 10 - 8 = ?",
+    "answer": "10 - 8 = 2"
+  },
+  {
+    "question": "Điền số tiếp theo vào dãy số: 6, 8, 10, ...",
+    "answer": "Số tiếp theo là 12"
+  },
+  {
+    "question": "Tính 20 - 16 = ?",
+    "answer": "20 - 16 = 4"
+  },
+  {
+    "question": "Lớp 1A có 1 bạn nam và 10 bạn nữ. Hỏi lớp 1A có tất cả bao nhiêu học sinh?",
+    "answer": "1 + 10 = 11"
+  },
+  {
+    "question": "Tính 22 - 15 = ?",
+    "answer": "22 - 15 = 7"
+  },
+  {
+    "question": "Mẹ có 8 quả trứng. Mẹ đã dùng 1 quả để làm bánh. Hỏi mẹ còn lại bao nhiêu quả trứng?",
+    "answer": "8 - 1 = 7"
+  },
+  {
+    "question": "So sánh 17 và 10 bằng dấu >, <, =",
+    "answer": "17 > 10"
+  },
+  {
+    "question": "Tính 21 - 4 = ?",
+    "answer": "21 - 4 = 17"
   }
 ]
