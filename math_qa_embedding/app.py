@@ -58,10 +58,23 @@ def search():
         
         print(f"Kết quả tìm kiếm: {len(results)} kết quả")
         
+        # Format kết quả với các trường mới
+        formatted_results = []
+        for result in results:
+            formatted_result = {
+                "question": result["question"],
+                "answer": result["answer"],
+                "chapter": result["chapter"],
+                "lesson": result["lesson"],
+                "image_url": result["image_url"],
+                "similarity_score": 1 - result["distance"]  # Chuyển đổi distance thành similarity score
+            }
+            formatted_results.append(formatted_result)
+        
         return jsonify({
             "status": "success",
             "query": query,
-            "results": results
+            "results": formatted_results
         }), 200
     except Exception as e:
         print(f"Lỗi khi tìm kiếm: {str(e)}")
@@ -82,6 +95,61 @@ def stats():
         return jsonify({
             "status": "success",
             "stats": stats
+        }), 200
+    except Exception as e:
+        return jsonify({"status": "error", "message": str(e)}), 500
+
+@app.route('/chapters', methods=['GET'])
+def get_chapters():
+    """API lấy danh sách các chương."""
+    try:
+        connected = milvus_service.connect()
+        if not connected:
+            return jsonify({"status": "error", "message": "Không thể kết nối với Milvus server"}), 500
+        
+        # Lấy tất cả các chương từ collection
+        results = milvus_service.collection.query(
+            expr="chapter != ''",
+            output_fields=["chapter"]
+        )
+        
+        # Lấy danh sách chương duy nhất
+        chapters = list(set(item["chapter"] for item in results))
+        chapters.sort()  # Sắp xếp theo thứ tự
+        
+        return jsonify({
+            "status": "success",
+            "chapters": chapters
+        }), 200
+    except Exception as e:
+        return jsonify({"status": "error", "message": str(e)}), 500
+
+@app.route('/lessons', methods=['GET'])
+def get_lessons():
+    """API lấy danh sách các bài học theo chương."""
+    try:
+        chapter = request.args.get('chapter')
+        if not chapter:
+            return jsonify({"status": "error", "message": "Thiếu tham số 'chapter'"}), 400
+        
+        connected = milvus_service.connect()
+        if not connected:
+            return jsonify({"status": "error", "message": "Không thể kết nối với Milvus server"}), 500
+        
+        # Lấy tất cả các bài học của chương
+        results = milvus_service.collection.query(
+            expr=f"chapter == '{chapter}'",
+            output_fields=["lesson"]
+        )
+        
+        # Lấy danh sách bài học duy nhất
+        lessons = list(set(item["lesson"] for item in results))
+        lessons.sort()  # Sắp xếp theo thứ tự
+        
+        return jsonify({
+            "status": "success",
+            "chapter": chapter,
+            "lessons": lessons
         }), 200
     except Exception as e:
         return jsonify({"status": "error", "message": str(e)}), 500
