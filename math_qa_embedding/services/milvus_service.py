@@ -56,6 +56,7 @@ class MilvusService:
             FieldSchema(name="chapter", dtype=DataType.VARCHAR, max_length=200),
             FieldSchema(name="lesson", dtype=DataType.VARCHAR, max_length=200),
             FieldSchema(name="image_url", dtype=DataType.VARCHAR, max_length=500),
+            FieldSchema(name="difficulty", dtype=DataType.VARCHAR, max_length=50),
             FieldSchema(name="embedding", dtype=DataType.FLOAT_VECTOR, dim=self.dim)
         ]
         
@@ -76,7 +77,7 @@ class MilvusService:
         
         return self.collection
     
-    def insert_data(self, questions, answers, embeddings, chapters=None, lessons=None, image_links=None):
+    def insert_data(self, questions, answers, embeddings, chapters=None, lessons=None, image_links=None, difficulties=None):
         """Thêm dữ liệu QA và embeddings vào Milvus với các trường mới."""
         if self.collection is None:
             self.create_collection()
@@ -92,6 +93,7 @@ class MilvusService:
             chapters if chapters else [""] * len(questions),
             lessons if lessons else [""] * len(questions),
             image_links if image_links else [""] * len(questions),
+            difficulties if difficulties else [""] * len(questions),
             embeddings
         ]
         
@@ -101,6 +103,7 @@ class MilvusService:
         print(f"Số lượng chapters: {len(chapters) if chapters else 0}")
         print(f"Số lượng lessons: {len(lessons) if lessons else 0}")
         print(f"Số lượng image_links: {len(image_links) if image_links else 0}")
+        print(f"Số lượng difficulties: {len(difficulties) if difficulties else 0}")
         print(f"Số lượng embeddings: {len(embeddings)}")
         print(f"Kích thước embedding đầu tiên: {len(embeddings[0])}")
         
@@ -175,7 +178,7 @@ class MilvusService:
                 anns_field="embedding",
                 param=search_params,
                 limit=top_k,
-                output_fields=["question", "answer", "chapter", "lesson", "image_url"]
+                output_fields=["question", "answer", "chapter", "lesson", "image_url", "difficulty"]
             )
             
             # Xử lý kết quả
@@ -189,6 +192,7 @@ class MilvusService:
                         "chapter": hit.entity.get("chapter"),
                         "lesson": hit.entity.get("lesson"),
                         "image_url": hit.entity.get("image_url"),
+                        "difficulty": hit.entity.get("difficulty"),
                         "distance": hit.distance
                     })
             
