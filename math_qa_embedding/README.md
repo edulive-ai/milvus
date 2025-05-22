@@ -47,7 +47,7 @@ Script này sẽ tạo 100 câu hỏi toán học với các thông tin:
 
 ### 2. Load dữ liệu vào Milvus
 ```bash
-python load_data.py
+nohup python3 -u load_data.py > embedding.log 2>&1 &
 ```
 Script này sẽ:
 - Kết nối với Milvus
@@ -138,7 +138,9 @@ fields = [
     FieldSchema(name="lesson", dtype=DataType.VARCHAR, max_length=200),
     FieldSchema(name="image_url", dtype=DataType.VARCHAR, max_length=500),
     FieldSchema(name="difficulty", dtype=DataType.VARCHAR, max_length=50),
-    FieldSchema(name="embedding", dtype=DataType.FLOAT_VECTOR, dim=768)
+    FieldSchema(name="embedding", dtype=DataType.FLOAT_VECTOR, dim=768),
+    FieldSchema(name="question_type", dtype=DataType.VARCHAR, max_length=100),
+    FieldSchema(name="parameters", dtype=DataType.VARCHAR, max_length=500)
 ]
 ```
 
@@ -149,3 +151,16 @@ fields = [
 - Dữ liệu câu hỏi được lưu trong file `data/math_qa_data_v2.json`
 - Khi tạo câu hỏi mới, hệ thống sẽ tự động chọn hình ảnh phù hợp từ các câu hỏi mẫu
 - Độ khó của câu hỏi được xác định dựa trên loại câu hỏi và các tham số 
+
+## Recent Changes
+
+- Deleted the following files:
+  - `data/generate_data_v1.py`
+  - `load_enhanced_data.py`
+  - `generate_test.py`
+
+- To run the `load_data.py` script in the background, use the following command:
+  ```bash
+  nohup python3 -u load_data.py > embedding.log 2>&1 &
+  ```
+  This command will run the script in the background and log the output to `embedding.log`. 

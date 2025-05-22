@@ -406,7 +406,7 @@ def generate_question_answer(question_type):
     
     return question, answer, difficulty
 
-def generate_structured_data(n_entries=100):
+def generate_structured_data(n_entries=5000):
     data = []
     unique_questions = set()  # Tập hợp theo dõi các câu hỏi đã tạo
     
@@ -446,10 +446,10 @@ def generate_structured_data(n_entries=100):
             # Lấy link ảnh phù hợp
             image_link = get_image_link(bai)
             
-            # Tạo cấu trúc dữ liệu
+            # Tạo cấu trúc dữ liệu với tên trường tiếng Anh
             entry = {
-                "chuong": chuong,
-                "bai": bai,
+                "chapter": chuong,
+                "lesson": bai,
                 "question": question,
                 "answer": answer,
                 "image_link": image_link,
@@ -458,8 +458,8 @@ def generate_structured_data(n_entries=100):
             
             data.append(entry)
             
-            # In tiến trình mỗi 10 câu hỏi
-            if len(data) % 10 == 0:
+            # In tiến trình mỗi 100 câu hỏi (changed from 10 to 100 for better progress tracking)
+            if len(data) % 100 == 0:
                 print(f"Đã tạo {len(data)} câu hỏi độc nhất...")
         
         attempts += 1
@@ -473,7 +473,7 @@ def generate_structured_data(n_entries=100):
     return data
 
 def save_data():
-    data = generate_structured_data(100)  # Tạo 100 bản ghi
+    data = generate_structured_data(5000)  # Changed from 100 to 5000
     # Tạo data directory nếu chưa tồn tại
     os.makedirs(os.path.dirname(os.path.abspath(__file__)), exist_ok=True)
     

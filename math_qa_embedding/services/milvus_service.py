@@ -51,12 +51,16 @@ class MilvusService:
         # Định nghĩa schema cho collection với các trường mới
         fields = [
             FieldSchema(name="id", dtype=DataType.INT64, is_primary=True, auto_id=True),
-            FieldSchema(name="question", dtype=DataType.VARCHAR, max_length=500),
-            FieldSchema(name="answer", dtype=DataType.VARCHAR, max_length=500),
-            FieldSchema(name="chapter", dtype=DataType.VARCHAR, max_length=200),
-            FieldSchema(name="lesson", dtype=DataType.VARCHAR, max_length=200),
-            FieldSchema(name="image_url", dtype=DataType.VARCHAR, max_length=500),
+            FieldSchema(name="grade", dtype=DataType.VARCHAR, max_length=50),
+            FieldSchema(name="chapter", dtype=DataType.VARCHAR, max_length=500),
+            FieldSchema(name="title", dtype=DataType.VARCHAR, max_length=1000),
+            FieldSchema(name="lessons", dtype=DataType.VARCHAR, max_length=1000),
+            FieldSchema(name="question", dtype=DataType.VARCHAR, max_length=1000),
+            FieldSchema(name="answer", dtype=DataType.VARCHAR, max_length=1000),
+            FieldSchema(name="image_question", dtype=DataType.VARCHAR, max_length=1000),
+            FieldSchema(name="image_answer", dtype=DataType.VARCHAR, max_length=1000),
             FieldSchema(name="difficulty", dtype=DataType.VARCHAR, max_length=50),
+            FieldSchema(name="page", dtype=DataType.INT64),
             FieldSchema(name="embedding", dtype=DataType.FLOAT_VECTOR, dim=self.dim)
         ]
         
@@ -77,7 +81,7 @@ class MilvusService:
         
         return self.collection
     
-    def insert_data(self, questions, answers, embeddings, chapters=None, lessons=None, image_links=None, difficulties=None):
+    def insert_data(self, questions, answers, embeddings, grades=None, chapters=None, titles=None, lessons=None, image_questions=None, image_answers=None, difficulties=None, pages=None):
         """Thêm dữ liệu QA và embeddings vào Milvus với các trường mới."""
         if self.collection is None:
             self.create_collection()
@@ -88,22 +92,30 @@ class MilvusService:
         
         # Chuẩn bị dữ liệu để insert
         data = [
+            grades if grades else [""] * len(questions),
+            chapters if chapters else [""] * len(questions),
+            titles if titles else [""] * len(questions),
+            lessons if lessons else [""] * len(questions),
             questions,
             answers,
-            chapters if chapters else [""] * len(questions),
-            lessons if lessons else [""] * len(questions),
-            image_links if image_links else [""] * len(questions),
+            image_questions if image_questions else [""] * len(questions),
+            image_answers if image_answers else [""] * len(questions),
             difficulties if difficulties else [""] * len(questions),
+            pages if pages else [0] * len(questions),
             embeddings
         ]
         
         # In debug
         print(f"Số lượng questions: {len(questions)}")
         print(f"Số lượng answers: {len(answers)}")
+        print(f"Số lượng grades: {len(grades) if grades else 0}")
         print(f"Số lượng chapters: {len(chapters) if chapters else 0}")
+        print(f"Số lượng titles: {len(titles) if titles else 0}")
         print(f"Số lượng lessons: {len(lessons) if lessons else 0}")
-        print(f"Số lượng image_links: {len(image_links) if image_links else 0}")
+        print(f"Số lượng image_questions: {len(image_questions) if image_questions else 0}")
+        print(f"Số lượng image_answers: {len(image_answers) if image_answers else 0}")
         print(f"Số lượng difficulties: {len(difficulties) if difficulties else 0}")
+        print(f"Số lượng pages: {len(pages) if pages else 0}")
         print(f"Số lượng embeddings: {len(embeddings)}")
         print(f"Kích thước embedding đầu tiên: {len(embeddings[0])}")
         
@@ -178,7 +190,7 @@ class MilvusService:
                 anns_field="embedding",
                 param=search_params,
                 limit=top_k,
-                output_fields=["question", "answer", "chapter", "lesson", "image_url", "difficulty"]
+                output_fields=["grade", "chapter", "title", "lessons", "question", "answer", "image_question", "image_answer", "difficulty", "page"]
             )
             
             # Xử lý kết quả
@@ -187,12 +199,16 @@ class MilvusService:
                 print(f"Tìm thấy {len(hits)} kết quả")
                 for hit in hits:
                     qa_results.append({
+                        "grade": hit.entity.get("grade"),
+                        "chapter": hit.entity.get("chapter"),
+                        "title": hit.entity.get("title"),
+                        "lessons": hit.entity.get("lessons"),
                         "question": hit.entity.get("question"),
                         "answer": hit.entity.get("answer"),
-                        "chapter": hit.entity.get("chapter"),
-                        "lesson": hit.entity.get("lesson"),
-                        "image_url": hit.entity.get("image_url"),
+                        "image_question": hit.entity.get("image_question"),
+                        "image_answer": hit.entity.get("image_answer"),
                         "difficulty": hit.entity.get("difficulty"),
+                        "page": hit.entity.get("page"),
                         "distance": hit.distance
                     })
             

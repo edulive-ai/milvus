@@ -29,7 +29,7 @@ def process_enhanced_data_to_milvus():
     milvus_service.create_collection()
     
     # Load dữ liệu
-    data_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "math_qa_data_v2.json")
+    data_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "toan-lop1-canh-dieu.json")
     if not os.path.exists(data_path):
         print(f"File dữ liệu {data_path} không tồn tại. Hãy tạo dữ liệu trước.")
         return False
@@ -37,18 +37,26 @@ def process_enhanced_data_to_milvus():
     qa_data = load_enhanced_qa_data(data_path)
     
     # Tách các trường dữ liệu
-    questions = [item["question"] for item in qa_data]
-    answers = [item["answer"] for item in qa_data]
-    chapters = [item["chuong"] for item in qa_data]
-    lessons = [item["bai"] for item in qa_data]
-    image_links = [item["image_link"] for item in qa_data]
+    grades = [item["grade"] for item in qa_data]
+    chapters = [item["chaper"] for item in qa_data]  # Note: using "chaper" as it's in the data
+    titles = [item["title"] for item in qa_data]
+    lessons = [item["lessons"] for item in qa_data]
+    questions = [item["questions"] for item in qa_data]
+    answers = [item["answers"] for item in qa_data]
+    image_questions = [item["image_question"] for item in qa_data]
+    image_answers = [item["image_answer"] for item in qa_data]
     difficulties = [item["difficulty"] for item in qa_data]
+    pages = [item["page"] for item in qa_data]
     
     print(f"Đã load {len(questions)} bản ghi dữ liệu")
-    print(f"Số lượng chương: {len(set(chapters))}")
-    print(f"Số lượng bài: {len(set(lessons))}")
-    print(f"Số lượng link ảnh: {len(set(image_links))}")
-    print(f"Số lượng độ khó: {len(set(difficulties))}")
+    print(f"Số lượng grade: {len(set(grades))}")
+    print(f"Số lượng chapter: {len(set(chapters))}")
+    print(f"Số lượng title: {len(set(titles))}")
+    print(f"Số lượng lessons: {len(set(lessons))}")
+    print(f"Số lượng image_question: {len(set(image_questions))}")
+    print(f"Số lượng image_answer: {len(set(image_answers))}")
+    print(f"Số lượng difficulty: {len(set(difficulties))}")
+    print(f"Số lượng page: {len(set(pages))}")
     
     # Tạo embedding cho câu hỏi
     print("Đang tạo embeddings cho câu hỏi...")
@@ -58,12 +66,16 @@ def process_enhanced_data_to_milvus():
         print(f"Cảnh báo: Số lượng embedding ({len(question_embeddings)}) không khớp với số lượng câu hỏi ({len(questions)})")
         # Điều chỉnh nếu cần
         min_length = min(len(question_embeddings), len(questions), len(answers))
+        grades = grades[:min_length]
+        chapters = chapters[:min_length]
+        titles = titles[:min_length]
+        lessons = lessons[:min_length]
         questions = questions[:min_length]
         answers = answers[:min_length]
-        chapters = chapters[:min_length]
-        lessons = lessons[:min_length]
-        image_links = image_links[:min_length]
+        image_questions = image_questions[:min_length]
+        image_answers = image_answers[:min_length]
         difficulties = difficulties[:min_length]
+        pages = pages[:min_length]
         question_embeddings = question_embeddings[:min_length]
     
     # Insert vào Milvus với cấu trúc mới
@@ -72,10 +84,14 @@ def process_enhanced_data_to_milvus():
         questions=questions,
         answers=answers,
         embeddings=question_embeddings,
+        grades=grades,
         chapters=chapters,
+        titles=titles,
         lessons=lessons,
-        image_links=image_links,
-        difficulties=difficulties
+        image_questions=image_questions,
+        image_answers=image_answers,
+        difficulties=difficulties,
+        pages=pages
     )
     
     if insert_result:

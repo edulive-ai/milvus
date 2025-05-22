@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math QA Data Viewer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .result-card {
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+        }
+        .result-card:hover {
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .metadata {
+            color: #666;
+            font-size: 0.9em;
+            margin-bottom: 10px;
+        }
+        .question {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .answer {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .image-container {
+            margin-top: 10px;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+        .filters {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        .pagination {
+            margin-top: 20px;
+            justify-content: center;
+        }
+        .question-number {
+            font-size: 0.8em;
+            color: #666;
+            margin-bottom: 5px;
+        }
+        .loading {
+            text-align: center;
+            padding: 50px;
+        }
+        .stats {
+            background-color: #e9ecef;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Danh sách câu hỏi Toán</h1>
+        
+        <div class="row justify-content-center">
+            <div class="col-md-10">
+                <!-- Stats -->
+                <div id="stats" class="stats" style="display: none;">
+                    <strong>Thống kê:</strong> <span id="statsText">Đang tải...</span>
+                </div>
+                
+                <!-- Refresh Button -->
+                <div class="text-center mb-3">
+                    <button onclick="manualRefresh()" class="btn btn-primary" id="refreshBtn">
+                        Tải lại dữ liệu
+                    </button>
+                </div>
+                
+                <!-- Results -->
+                <div id="results">
+                    <div class="loading">
+                        <div class="spinner-border" role="status"></div>
+                        <p>Đang tải dữ liệu...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Global state management
+        window.MathQAApp = window.MathQAApp || {
+            isLoading: false,
+            dataLoaded: false,
+            loadCount: 0,
+            lastLoadTime: 0
+        };
+
+        function createImageElements(imageString, type) {
+            if (!imageString) return '';
+            
+            const images = imageString.split(',').map(img => img.trim()).filter(img => img.length > 0);
+            
+            if (images.length === 0) return '';
+            
+            return `
+                <div class="image-container">
+                    <p><strong>Hình ảnh ${type}:</strong></p>
+                    ${images.map(img => {
+                        const cleanPath = img.replace(/^images\//, '');
+                        const finalPath = `/static/images/${cleanPath}`;
+                        return `<img src="${finalPath}" alt="Hình ảnh ${type}" onerror="this.style.display='none'">`;
+                    }).join('')}
+                </div>
+            `;
+        }
+
+        async function loadAllData() {
+            const app = window.MathQAApp;
+            const now = Date.now();
+            
+            // Prevent multiple rapid calls (debounce)
+            if (app.isLoading || (now - app.lastLoadTime < 1000)) {
+                console.log('Skipping load - already loading or too frequent');
+                return;
+            }
+
+            app.isLoading = true;
+            app.loadCount++;
+            app.lastLoadTime = now;
+            
+            const resultsDiv = document.getElementById('results');
+            const refreshBtn = document.getElementById('refreshBtn');
+            const statsDiv = document.getElementById('stats');
+            const statsText = document.getElementById('statsText');
+            
+            console.log(`=== Load attempt #${app.loadCount} ===`);
+            
+            try {
+                // Update UI state
+                if (refreshBtn) {
+                    refreshBtn.disabled = true;
+                    refreshBtn.textContent = 'Đang tải...';
+                }
+                
+                // Clear existing content COMPLETELY
+                resultsDiv.innerHTML = '';
+                resultsDiv.innerHTML = `
+                    <div class="loading">
+                        <div class="spinner-border" role="status"></div>
+                        <p>Đang tải dữ liệu... (Lần thử #${app.loadCount})</p>
+                    </div>
+                `;
+                
+                console.log('Making API request to /fetch_all_data');
+                const response = await fetch('/fetch_all_data', {
+                    method: 'GET',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Cache-Control': 'no-cache'
+                    }
+                });
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                }
+                
+                const data = await response.json();
+                console.log('API Response:', {
+                    status: data.status,
+                    resultCount: data.results ? data.results.length : 0,
+                    total: data.total
+                });
+                
+                if (data.status === 'success' && data.results) {
+                    // Clear again before adding new content
+                    resultsDiv.innerHTML = '';
+                    
+                    // Create all HTML at once
+                    const allResultsHtml = data.results.map((result, index) => `
+                        <div class="result-card">
+                            <div class="question-number">Câu hỏi ${index + 1} (ID: ${result.id || 'N/A'})</div>
+                            <div class="metadata">
+                                <span class="badge bg-primary">${result.grade || 'N/A'}</span>
+                                <span class="badge bg-secondary">${result.chapter || 'N/A'}</span>
+                                <span class="badge bg-info">${result.lessons || 'N/A'}</span>
+                                <span class="badge bg-warning">${result.difficulty || 'N/A'}</span>
+                                <span class="badge bg-dark">Trang ${result.page || 'N/A'}</span>
+                            </div>
+                            <div class="question">${result.question || 'Không có câu hỏi'}</div>
+                            <div class="answer">${result.answer || 'Không có đáp án'}</div>
+                            ${createImageElements(result.image_question, 'câu hỏi')}
+                            ${createImageElements(result.image_answer, 'đáp án')}
+                        </div>
+                    `).join('');
+                    
+                    // Set innerHTML once
+                    resultsDiv.innerHTML = allResultsHtml;
+                    
+                    // Update stats
+                    if (statsDiv && statsText) {
+                        statsText.textContent = `Tổng: ${data.results.length} câu hỏi | Tải lần #${app.loadCount}`;
+                        statsDiv.style.display = 'block';
+                    }
+                    
+                    app.dataLoaded = true;
+                    console.log(`✅ Successfully loaded ${data.results.length} questions`);
+                    
+                } else {
+                    throw new Error(data.message || 'Unknown error from API');
+                }
+                
+            } catch (error) {
+                console.error('❌ Error loading data:', error);
+                resultsDiv.innerHTML = `
+                    <div class="alert alert-danger" role="alert">
+                        <h4>Có lỗi xảy ra!</h4>
+                        <p><strong>Lỗi:</strong> ${error.message}</p>
+                        <p><strong>Lần thử:</strong> #${app.loadCount}</p>
+                        <button onclick="manualRefresh()" class="btn btn-outline-danger">Thử lại</button>
+                    </div>
+                `;
+            } finally {
+                // Reset loading state
+                app.isLoading = false;
+                if (refreshBtn) {
+                    refreshBtn.disabled = false;
+                    refreshBtn.textContent = 'Tải lại dữ liệu';
+                }
+            }
+        }
+
+        function manualRefresh() {
+            console.log('Manual refresh triggered');
+            window.MathQAApp.dataLoaded = false;
+            loadAllData();
+        }
+
+        // Initialize only once when DOM is ready
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('🚀 DOM Content Loaded');
+            
+            // Prevent multiple initializations
+            if (window.MathQAApp.initialized) {
+                console.log('Already initialized, skipping...');
+                return;
+            }
+            
+            window.MathQAApp.initialized = true;
+            console.log('Initializing app...');
+            
+            // Load data once
+            setTimeout(() => {
+                if (!window.MathQAApp.dataLoaded) {
+                    loadAllData();
+                }
+            }, 100);
+        });
+
+        // Prevent duplicate script execution
+        if (window.mathQAScriptLoaded) {
+            console.log('Script already loaded, stopping execution');
+        } else {
+            window.mathQAScriptLoaded = true;
+            console.log('Script loaded for the first time');
+        }
+    </script>
+</body>
+</html>

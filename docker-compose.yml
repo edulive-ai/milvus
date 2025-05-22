@@ -3,7 +3,7 @@ version: '3.5'
 services:
   etcd:
     container_name: milvus-etcd
-    image: quay.io/coreos/etcd:v3.5.18
+    image: quay.io/coreos/etcd:v3.5.18 # Bạn có thể cân nhắc phiên bản etcd mới hơn nếu có, v3.5.18 là ok
     environment:
       - ETCD_AUTO_COMPACTION_MODE=revision
       - ETCD_AUTO_COMPACTION_RETENTION=1000
@@ -17,16 +17,19 @@ services:
       interval: 30s
       timeout: 20s
       retries: 3
+    networks: # Thêm network cho etcd
+      - default
 
   minio:
     container_name: milvus-minio
-    image: minio/minio:RELEASE.2023-03-20T20-16-18Z
+    image: minio/minio:RELEASE.2023-03-20T20-16-18Z # Bạn có thể cân nhắc phiên bản minio mới hơn
     environment:
       MINIO_ACCESS_KEY: minioadmin
       MINIO_SECRET_KEY: minioadmin
+      MINIO_PROMETHEUS_AUTH_TYPE: "public" # Thêm dòng này nếu bạn muốn metrics public cho Prometheus, không bắt buộc cho Attu
     ports:
-      - "9001:9001"
-      - "9000:9000"
+      - "9001:9001" # MinIO Console
+      - "9000:9000" # MinIO API
     volumes:
       - ${DOCKER_VOLUME_DIRECTORY:-.}/volumes/minio:/minio_data
     command: minio server /minio_data --console-address ":9001"
@@ -35,6 +38,8 @@ services:
       interval: 30s
       timeout: 20s
       retries: 3
+    networks: # Thêm network cho minio
+      - default
 
   standalone:
     container_name: milvus-standalone
@@ -45,21 +50,48 @@ services:
     environment:
       ETCD_ENDPOINTS: etcd:2379
       MINIO_ADDRESS: minio:9000
+      # Biến môi trường cho phép Attu hoặc các client khác thấy được địa chỉ Milvus bên ngoài container, hữu ích trong một số trường hợp
+      # MILVUS_EXTERNAL_ADDR: localhost:19530 # Bỏ comment và chỉnh sửa nếu cần thiết
     volumes:
       - ${DOCKER_VOLUME_DIRECTORY:-.}/volumes/milvus:/var/lib/milvus
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:9091/healthz"]
       interval: 30s
-      start_period: 90s
+      start_period: 90s # Cho Milvus thêm thời gian khởi động trước khi check health
       timeout: 20s
       retries: 3
     ports:
-      - "19530:19530"
-      - "9091:9091"
+      - "19530:19530" # Milvus SDK port
+      - "9091:9091"   # Milvus metrics/health port
     depends_on:
-      - "etcd"
-      - "minio"
+      etcd: # Rút gọn depends_on, healthcheck sẽ xử lý việc sẵn sàng
+        condition: service_healthy
+      minio:
+        condition: service_healthy
+    networks: # Thêm network cho standalone
+      - default
+
+  # Dịch vụ Milvus Insight (Attu)
+  attu:
+    container_name: milvus-attu
+    image: zilliz/attu:v2.4.3 # Sử dụng phiên bản Attu tương thích. v2.4.3 thường tốt cho Milvus 2.4.x-2.5.x.
+                               # Bạn có thể kiểm tra phiên bản Attu mới nhất/tương thích trên Docker Hub hoặc tài liệu của Zilliz.
+    ports:
+      - "8000:3000" # Truy cập Attu qua cổng 8000 của máy host (Attu chạy trên cổng 3000 trong container)
+    environment:
+      # Địa chỉ Milvus mà Attu sẽ kết nối tới.
+      # 'standalone' là tên dịch vụ của Milvus trong cùng Docker network.
+      # '19530' là cổng mặc định của Milvus.
+      MILVUS_URL: standalone:19530
+      # Nếu bạn muốn Attu có thể kết nối từ bên ngoài docker network trực tiếp đến địa chỉ host và port của milvus
+      # thì có thể cấu hình là MILVUS_URL: host.docker.internal:19530 (cho Docker Desktop trên Windows/Mac)
+      # hoặc địa chỉ IP của máy host:19530
+    depends_on:
+      standalone:
+        condition: service_healthy # Đảm bảo Milvus standalone đã sẵn sàng trước khi Attu khởi động
+    networks:
+      - default
 
 networks:
-  default:
-    name: milvus
+  default: # Tên network được các service sử dụng
+    name: milvus # Đặt tên cụ thể cho network, giống như bạn đã làm
